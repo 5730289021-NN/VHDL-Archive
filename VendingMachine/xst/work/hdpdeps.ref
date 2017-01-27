@@ -1,0 +1,21 @@
+V3 10
+FL C:/Users/noraw/Documents/VHDL/VendingMachine/OneShot.vhd 2016/12/07.01:09:56 P.20131013
+EN work/OneShot 1481047822 \
+      FL C:/Users/noraw/Documents/VHDL/VendingMachine/OneShot.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/OneShot/Behavioral 1481047823 \
+      FL C:/Users/noraw/Documents/VHDL/VendingMachine/OneShot.vhd EN work/OneShot 1481047822
+FL C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd 2016/12/06.21:22:07 P.20131013
+EN work/SevenSegment 1481103170 \
+      FL C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SevenSegment/Behavioral 1481103171 \
+      FL C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd \
+      EN work/SevenSegment 1481103170
+FL C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd 2016/12/07.01:23:56 P.20131013
+EN work/Vending 1481103172 \
+      FL C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Vending/Behavioral 1481103173 \
+      FL C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd EN work/Vending 1481103172 \
+      CP SevenSegment

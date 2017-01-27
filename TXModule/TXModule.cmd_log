@@ -1,0 +1,114 @@
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 "TXModule.ngc" TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.xst" -ofn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 TXModule.ngc TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.xst" -ofn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 TXModule.ngc TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.xst" -ofn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 TXModule.ngc TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+bitgen -intstyle ise -f TXModule.ut TXModule.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.xst" -ofn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 TXModule.ngc TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.xst" -ofn "C:/Users/noraw/Documents/VHDL/TXModule/TXModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TXModule.ucf -p xc3s200-tq144-4 TXModule.ngc TXModule.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o TXModule_map.ncd TXModule.ngd TXModule.pcf 
+par -w -intstyle ise -ol high -t 1 TXModule_map.ncd TXModule.ncd TXModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TXModule.twx TXModule.ncd -o TXModule.twr TXModule.pcf -ucf TXModule.ucf 

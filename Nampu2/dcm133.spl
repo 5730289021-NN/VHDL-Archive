@@ -1,0 +1,9 @@
+[Inputs]
+CLKIN_IN
+RST_IN
+[Outputs]
+CLKFX_OUT
+CLKIN_IBUFG_OUT
+CLK0_OUT
+LOCKED_OUT
+[BiDir]

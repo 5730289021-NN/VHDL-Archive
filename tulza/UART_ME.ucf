@@ -1,0 +1,12 @@
+
+
+NET "dsw[2]" LOC = P68;
+NET "dsw[1]" LOC = P63;
+NET "dsw[0]" LOC = P60;
+NET "dout" LOC = P131;
+NET "reset" LOC = P46;
+NET "SysClk" LOC = P127;
+
+# PlanAhead Generated physical constraints 
+
+NET "SysRstB" LOC = P44;

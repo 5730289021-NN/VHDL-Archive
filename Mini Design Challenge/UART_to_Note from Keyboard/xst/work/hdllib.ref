@@ -1,0 +1,16 @@
+AR rxmodule behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/RXModule.vhd sub00/vhpl05 1484906599
+AR main behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd sub00/vhpl09 1484906607
+AR dcm133 behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/dcm133.vhd sub00/vhpl01 1484906593
+EN pwm NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/PWM.vhd sub00/vhpl06 1484906604
+AR uart_buffer behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_Buffer.vhd sub00/vhpl03 1484906597
+EN dcm133 NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/dcm133.vhd sub00/vhpl00 1484906592
+EN uart_buffer NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_Buffer.vhd sub00/vhpl02 1484906596
+EN main NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd sub00/vhpl08 1484906606
+AR pwm behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/PWM.vhd sub00/vhpl07 1484906605
+AR sine_clkpertick_decoder_special behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/Sine_ClkPerTickDecoder.vhd sub00/vhpl13 1484906601
+EN sine_generator NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/SineGenerator.vhd sub00/vhpl14 1484906602
+AR uart_clkperbit_decoder behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_ClkPerBit_Decoder.vhd sub00/vhpl11 1484906595
+AR sine_generator behavioral C:/Users/noraw/Documents/VHDL/UART_to_Note/SineGenerator.vhd sub00/vhpl15 1484906603
+EN sine_clkpertick_decoder_special NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/Sine_ClkPerTickDecoder.vhd sub00/vhpl12 1484906600
+EN uart_clkperbit_decoder NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_ClkPerBit_Decoder.vhd sub00/vhpl10 1484906594
+EN rxmodule NULL C:/Users/noraw/Documents/VHDL/UART_to_Note/RXModule.vhd sub00/vhpl04 1484906598

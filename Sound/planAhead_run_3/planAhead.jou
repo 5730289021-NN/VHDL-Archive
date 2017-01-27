@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Dec 03 16:17:28 2016
+# Process ID: 5452
+# Log file: C:/Users/noraw/XilinxWorkspace/Sound/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/noraw/XilinxWorkspace/Sound/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/XilinxWorkspace/Sound/pa.fromNetlist.tcl

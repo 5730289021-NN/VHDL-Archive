@@ -1,0 +1,2 @@
+verilog work "dcm133.v"
+vhdl work "LEDs_PWM.vhd"

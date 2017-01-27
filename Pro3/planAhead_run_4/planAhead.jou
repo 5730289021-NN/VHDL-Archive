@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 06 17:51:43 2016
+# Process ID: 4660
+# Log file: C:/Users/noraw/Documents/VHDL/Pro3/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/Pro3/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/Pro3/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P33 [get_ports {digit[1]}]
+endgroup
+startgroup
+set_property package_pin P31 [get_ports {digit[0]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {LEDS[6]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {LEDS[5]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {LEDS[4]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {LEDS[3]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {LEDS[2]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {LEDS[1]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {LEDS[0]}]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports CLOCK]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports x]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports y]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P70 [get_ports z]
+endgroup
+save_constraints

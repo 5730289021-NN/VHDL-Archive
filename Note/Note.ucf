@@ -1,0 +1,5 @@
+
+
+NET "buzzer" LOC = P125;
+NET "osc" LOC = P127;
+NET "a" LOC = P70;

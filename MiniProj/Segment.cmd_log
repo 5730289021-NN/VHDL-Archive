@@ -1,0 +1,69 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm Segment -w -dir netgen/translate -ofmt vhdl -sim Segment.ngd Segment_translate.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.xst" -ofn "C:/Users/noraw/Documents/VHDL/MiniProj/Segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Segment.ucf -p xc3s200-tq144-4 Segment.ngc Segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Segment_map.ncd Segment.ngd Segment.pcf 
+par -w -intstyle ise -ol high -t 1 Segment_map.ncd Segment.ncd Segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Segment.twx Segment.ncd -o Segment.twr Segment.pcf -ucf Segment.ucf 
+bitgen -intstyle ise -f Segment.ut Segment.ncd 

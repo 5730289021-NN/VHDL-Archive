@@ -1,0 +1,18 @@
+
+
+
+# PlanAhead Generated physical constraints 
+
+NET "digit[1]" LOC = P33;
+NET "digit[0]" LOC = P31;
+NET "LEDS[6]" LOC = P40;
+NET "LEDS[5]" LOC = P35;
+NET "LEDS[4]" LOC = P32;
+NET "LEDS[3]" LOC = P30;
+NET "LEDS[2]" LOC = P27;
+NET "LEDS[1]" LOC = P25;
+NET "LEDS[0]" LOC = P23;
+NET "CLOCK" LOC = P127;
+NET "x" LOC = P44;
+NET "y" LOC = P46;
+NET "z" LOC = P70;

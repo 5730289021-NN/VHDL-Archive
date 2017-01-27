@@ -1,0 +1,18 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Digits[4]" LOC = P41;
+NET "Digits[3]" LOC = P36;
+NET "Digits[2]" LOC = P33;
+NET "Digits[1]" LOC = P31;
+NET "Segments[6]" LOC = P40;
+NET "Segments[5]" LOC = P35;
+NET "Segments[4]" LOC = P32;
+NET "Segments[3]" LOC = P30;
+NET "Segments[2]" LOC = P27;
+NET "Segments[1]" LOC = P25;
+NET "Segments[0]" LOC = P23;
+NET "Baht10" LOC = P44;
+NET "Baht20" LOC = P46;
+NET "Clock" LOC = P127;
+NET "Dispensed" LOC = P70;

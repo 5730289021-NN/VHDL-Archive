@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/SineGenerator.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/SineGenerator.syr" 

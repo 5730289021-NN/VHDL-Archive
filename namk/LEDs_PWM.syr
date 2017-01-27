@@ -1,0 +1,542 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: LEDs_PWM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LEDs_PWM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LEDs_PWM"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : LEDs_PWM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "dcm133.v" in library work
+Module <dcm133> compiled
+No errors in compilation
+Analysis of file <"LEDs_PWM.prj"> succeeded.
+ 
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd" in Library work.
+Architecture behavioral of Entity leds_pwm is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LEDs_PWM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <dcm133> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LEDs_PWM> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd" line 43: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm133'.
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd" line 43: Unconnected output port 'CLK0_OUT' of component 'dcm133'.
+WARNING:Xst:819 - "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd" line 84: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <count>
+Entity <LEDs_PWM> analyzed. Unit <LEDs_PWM> generated.
+
+Analyzing module <dcm133> in library <work>.
+Module <dcm133> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_MULTIPLY =  16" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_PERIOD =  40.000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "FACTORY_JF =  8080" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <dcm133>.
+    Related source file is "dcm133.v".
+Unit <dcm133> synthesized.
+
+
+Synthesizing Unit <LEDs_PWM>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd".
+WARNING:Xst:1780 - Signal <reset> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clkdiv> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RstB> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <a0<31>>.
+    Found 2-bit register for signal <a1>.
+    Found 3-bit register for signal <a2>.
+    Found 4-bit register for signal <a3>.
+    Found 5-bit register for signal <a4>.
+    Found 6-bit register for signal <a5>.
+    Found 7-bit register for signal <a6>.
+    Found 8-bit register for signal <a7>.
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit comparator greater for signal <count$cmp_gt0000> created at line 86.
+    Found 8-bit register for signal <dec>.
+    Found 8-bit adder for signal <dec$add0000> created at line 80.
+    Found 3-bit adder carry in for signal <dec$addsub0000> created at line 80.
+    Found 4-bit adder for signal <dec$addsub0001> created at line 80.
+    Found 5-bit adder for signal <dec$addsub0002> created at line 80.
+    Found 6-bit adder for signal <dec$addsub0003> created at line 80.
+    Found 7-bit adder for signal <dec$addsub0004> created at line 80.
+    Found 1-bit register for signal <tmp>.
+    Found 32-bit comparator greater for signal <tmp$cmp_gt0000> created at line 90.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  45 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <LEDs_PWM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 3-bit adder carry in                                  : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 10
+ 1-bit register                                        : 2
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 2
+# Comparators                                          : 2
+ 32-bit comparator greater                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <a7_6> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_5> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_4> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_5> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_4> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_4> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a3_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a3_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a3_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a2_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a2_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a1_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 3-bit adder carry in                                  : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 45
+ Flip-Flops                                            : 45
+# Comparators                                          : 2
+ 32-bit comparator greater                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <a7_6> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_5> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_4> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a7_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_5> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_4> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a6_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_4> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a5_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_3> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a4_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a2_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a2_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a1_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a3_2> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a3_1> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <a3_0> has a constant value of 0 in block <LEDs_PWM>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <LEDs_PWM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LEDs_PWM, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LEDs_PWM.ngr
+Top Level Output File Name         : LEDs_PWM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 157
+#      GND                         : 1
+#      INV                         : 13
+#      LUT1                        : 32
+#      LUT2                        : 9
+#      LUT3                        : 1
+#      LUT4                        : 12
+#      MUXCY                       : 56
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 49
+#      FD                          : 8
+#      FDC                         : 32
+#      FDE                         : 1
+#      FDR                         : 8
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 11
+#      IBUF                        : 9
+#      IBUFG                       : 1
+#      OBUF                        : 1
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                       44  out of   1920     2%  
+ Number of Slice Flip Flops:             49  out of   3840     1%  
+ Number of 4 input LUTs:                 67  out of   3840     1%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of     97    11%  
+ Number of GCLKs:                         2  out of      8    25%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SysClk                             | u_dcm133/DCM_INST:CLKFX| 49    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------------------+------------------------+-------+
+Control Signal                                              | Buffer(FF name)        | Load  |
+------------------------------------------------------------+------------------------+-------+
+count_cmp_gt0000(Mcompar_count_cmp_gt0000_cy<9>_inv_INV_0:O)| NONE(count_0)          | 32    |
+------------------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 31.893ns (Maximum Frequency: 31.355MHz)
+   Minimum input arrival time before clock: 4.000ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SysClk'
+  Clock period: 31.893ns (frequency: 31.355MHz)
+  Total number of paths / destination ports: 618 / 42
+-------------------------------------------------------------------------
+Delay:               5.980ns (Levels of Logic = 32)
+  Source:            count_1 (FF)
+  Destination:       count_31 (FF)
+  Source Clock:      SysClk rising 5.3X
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: count_1 to count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.720   1.246  count_1 (count_1)
+     LUT1:I0->O            1   0.551   0.000  Mcount_count_cy<1>_rt (Mcount_count_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcount_count_cy<1> (Mcount_count_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<2> (Mcount_count_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<3> (Mcount_count_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<4> (Mcount_count_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<5> (Mcount_count_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<6> (Mcount_count_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<7> (Mcount_count_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<8> (Mcount_count_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<9> (Mcount_count_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<10> (Mcount_count_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<11> (Mcount_count_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<12> (Mcount_count_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<13> (Mcount_count_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<14> (Mcount_count_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<15> (Mcount_count_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<16> (Mcount_count_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<17> (Mcount_count_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<18> (Mcount_count_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<19> (Mcount_count_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<20> (Mcount_count_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<21> (Mcount_count_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<22> (Mcount_count_cy<22>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<23> (Mcount_count_cy<23>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<24> (Mcount_count_cy<24>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<25> (Mcount_count_cy<25>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<26> (Mcount_count_cy<26>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<27> (Mcount_count_cy<27>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<28> (Mcount_count_cy<28>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_count_cy<29> (Mcount_count_cy<29>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_count_cy<30> (Mcount_count_cy<30>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_count_xor<31> (Result<31>)
+     FDC:D                     0.203          count_31
+    ----------------------------------------
+    Total                      5.980ns (4.734ns logic, 1.246ns route)
+                                       (79.2% logic, 20.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SysClk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.000ns (Levels of Logic = 2)
+  Source:            dipsw<0> (PAD)
+  Destination:       a0_0 (FF)
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: dipsw<0> to a0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  dipsw_0_IBUF (dipsw_0_IBUF)
+     INV:I->O              1   0.551   0.801  dipsw<0>_inv1_INV_0 (dipsw<0>_inv)
+     FDR:R                     1.026          a0_0
+    ----------------------------------------
+    Total                      4.000ns (2.398ns logic, 1.602ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SysClk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            tmp (FF)
+  Destination:       led (PAD)
+  Source Clock:      SysClk rising 5.3X
+
+  Data Path: tmp to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.720   0.801  tmp (tmp)
+     OBUF:I->O                 5.644          led_OBUF (led)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.79 secs
+ 
+--> 
+
+Total memory usage is 305780 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   62 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

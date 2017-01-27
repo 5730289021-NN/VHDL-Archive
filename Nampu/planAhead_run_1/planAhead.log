@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Jan 06 13:22:30 2017
+# Process ID: 7508
+# Log file: C:/Users/noraw/Documents/VHDL/Nampu/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/Nampu/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/noraw/Documents/VHDL/Nampu/pa.fromHdl.tcl
+# create_project -name Nampu -dir "C:/Users/noraw/Documents/VHDL/Nampu/planAhead_run_1" -part xc3s200tq144-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "writeaeng.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {dcm133.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {nampu.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top writeaeng $srcset
+# add_files [list {writeaeng.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s200tq144-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/Nampu/dcm133.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/Nampu/nampu.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/tq144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/tq144/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+Parsing UCF File [C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.ucf]
+Finished Parsing UCF File [C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 7a54c24a
+open_rtl_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 478.055 ; gain = 62.684
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {BRin[2]}]]
+set_property package_pin "" [get_ports [list  {BRin[1]}]]
+set_property package_pin "" [get_ports [list  {BRin[2]}]]
+set_property package_pin "" [get_ports [list  {BRin[1]}]]
+set_property package_pin "" [get_ports [list  {BRin[2]}]]
+startgroup
+set_property package_pin P47 [get_ports {BRin[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {BRin[1]}]]
+startgroup
+set_property package_pin P47 [get_ports {BRin[0]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {BRin[1]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {BRin[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {keybit[0]}]]
+set_property package_pin "" [get_ports [list  {keybit[1]}]]
+set_property package_pin "" [get_ports [list  {keybit[0]}]]
+set_property package_pin "" [get_ports [list  {keybit[1]}]]
+startgroup
+set_property package_pin P70 [get_ports {keybit[0]}]
+endgroup
+startgroup
+set_property package_pin P73 [get_ports {keybit[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {keybit[2]}]]
+startgroup
+set_property package_pin P77 [get_ports {keybit[1]}]
+endgroup
+startgroup
+set_property package_pin P69 [get_ports {keybit[2]}]
+endgroup
+startgroup
+set_property package_pin P76 [get_ports {keybit[3]}]
+endgroup
+startgroup
+set_property package_pin P74 [get_ports {keybit[4]}]
+endgroup
+startgroup
+set_property package_pin P79 [get_ports {keybit[5]}]
+endgroup
+startgroup
+set_property package_pin P73 [get_ports {keybit[6]}]
+endgroup
+startgroup
+set_property package_pin P78 [get_ports {keybit[7]}]
+endgroup
+set_property package_pin "" [get_ports [list  startbit]]
+startgroup
+set_property package_pin P40 [get_ports startbit]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports stopbit]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/noraw/Documents/VHDL/Nampu\planAhead_pid7508.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Jan 06 13:42:45 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

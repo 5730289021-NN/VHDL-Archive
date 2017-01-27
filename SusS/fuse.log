@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Work/SusS/scroll_isim_beh.exe -prj D:/Work/SusS/scroll_beh.prj work.scroll 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Work/SusS/x7.vhd" into library work
+Parsing VHDL file "D:/Work/SusS/P7.vhd" into library work
+Parsing VHDL file "D:/Work/SusS/scroll.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "D:/Work/SusS/scroll.vhd" Line 45: <clkdiv> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:1321 - "D:/Work/SusS/P7.vhd" Line 18: Right bound value <90> of slice is out of range [0:51] of array <msg_array>
+WARNING:HDLCompiler:960 - "D:/Work/SusS/P7.vhd" Line 18: Expression has incompatible type
+WARNING:HDLCompiler:960 - "D:/Work/SusS/P7.vhd" Line 19: Expression has incompatible type
+Completed static elaboration
+WARNING:Simulator:648 - "D:/Work/SusS/scroll.vhd" Line 45. Instance clkdiv is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity P7 [p7_default]
+Compiling architecture behavioral of entity x7 [x7_default]
+Compiling architecture behavioral of entity scroll
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable D:/Work/SusS/scroll_isim_beh.exe
+Fuse Memory Usage: 33076 KB
+Fuse CPU Usage: 1279 ms

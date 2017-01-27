@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd</arg>&quot; line <arg fmt="%d" index="2">75</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd</arg>&quot; line <arg fmt="%d" index="2">75</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd</arg>&quot; line <arg fmt="%d" index="2">100</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_UART_ClkPerBit_mux0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TXModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+</messages>
+

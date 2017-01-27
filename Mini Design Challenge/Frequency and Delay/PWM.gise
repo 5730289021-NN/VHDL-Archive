@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="PWM.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LEDSine.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LEDSine.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LEDSine.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LEDSine.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LEDSine.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LEDSine.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LEDSine.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LEDSine.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LEDSine.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LEDSine.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LEDSine.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LEDSine.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LEDSine.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LEDSine.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LEDSine.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LEDSine.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LEDSine.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="LEDSine.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LEDSine.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LEDSine.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LEDSineTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LEDSineTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LEDSineTest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LEDSine_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LEDSine_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LEDSine_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LEDSine_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LEDSine_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LEDSine_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LEDSine_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LEDSine_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LEDSine_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LEDSine_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LEDSine_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LEDSine_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LEDSine_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LEDSine_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LEDSine_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LEDSine_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="PWM.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PWM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PWM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PWM.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="PWM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="PWM.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PWM.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="PWM.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="PWM.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="PWM.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PWM.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="PWM.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="PWM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PWM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="PWM.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="PWM.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="PWM.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="PWM.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="PWM.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PWM.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PWMTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PWM_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="PWM_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PWM_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PWM_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PWM_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PWM_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="PWM_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PWM_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PWM_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="PWM_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="PWM_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PWM_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PWM_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="PWM_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="PWM_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PWM_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PWM_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SineGenerator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SineGenerator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SineGenerator.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SineGenerator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SineGenerator.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SineGenerator_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SineGenerator_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SineGenerator_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Sine_Compound.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Sine_Compound.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Sine_Compound.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Sine_Compound.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Compound.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sine_Compound.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sine_Compound.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sine_Compound.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_Compound_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_Compound_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Compound_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sine_Compound_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Sine_DelayDecoder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Sine_DelayDecoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Sine_DelayDecoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Sine_DelayDecoder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_DelayDecoder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sine_DelayDecoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sine_DelayDecoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sine_DelayDecoder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_DelayDecoder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_DelayDecoder_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_DelayDecoder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sine_DelayDecoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Sine_Delayer.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Sine_Delayer.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Sine_Delayer.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Sine_Delayer.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Delayer.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sine_Delayer.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sine_Delayer.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sine_Delayer.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Sine_DelayerTest_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_DelayerTest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_Delayer_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Sine_Delayer_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Delayer_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_Delayer_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Delayer_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sine_Delayer_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Sine_Generator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Sine_Generator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Sine_Generator.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Sine_Generator.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Generator.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sine_Generator.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sine_Generator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sine_Generator.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_Generator_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sine_Generator_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sine_Generator_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sine_Generator_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="dcm133.vhd" xil_pn:subbranch="Par">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ledsine.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ledsine.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ledsine.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pwm.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="pwm.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="pwm.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1484913889" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913889" xil_pn:in_ck="-1013743337293503540" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LEDSine.vhd"/>
+      <outfile xil_pn:name="LEDSineTest.vhd"/>
+      <outfile xil_pn:name="PWM.vhd"/>
+      <outfile xil_pn:name="PWMTest.vhd"/>
+      <outfile xil_pn:name="SineGenerator.vhd"/>
+      <outfile xil_pn:name="Sine_ClkPerTickDecoder.vhd"/>
+      <outfile xil_pn:name="Sine_Compound.vhd"/>
+      <outfile xil_pn:name="Sine_Compound_NoDelay.vhd"/>
+      <outfile xil_pn:name="Sine_DelayMaker.vhd"/>
+      <outfile xil_pn:name="Sine_Delayer.vhd"/>
+      <outfile xil_pn:name="Sine_DelayerTest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913889" xil_pn:in_ck="-2674755482453352904" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8578826668699952102" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="dcm133.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913889" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4997657634025455314" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913889" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7453737345931548674" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913889" xil_pn:in_ck="-4734459222503804217" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LEDSine.vhd"/>
+      <outfile xil_pn:name="LEDSineTest.vhd"/>
+      <outfile xil_pn:name="PWM.vhd"/>
+      <outfile xil_pn:name="PWMTest.vhd"/>
+      <outfile xil_pn:name="SineGenerator.vhd"/>
+      <outfile xil_pn:name="Sine_ClkPerTickDecoder.vhd"/>
+      <outfile xil_pn:name="Sine_Compound.vhd"/>
+      <outfile xil_pn:name="Sine_Compound_NoDelay.vhd"/>
+      <outfile xil_pn:name="Sine_DelayMaker.vhd"/>
+      <outfile xil_pn:name="Sine_Delayer.vhd"/>
+      <outfile xil_pn:name="Sine_DelayerTest.vhd"/>
+      <outfile xil_pn:name="dcm133.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913897" xil_pn:in_ck="-4734459222503804217" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7040258754770814991" xil_pn:start_ts="1484913889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LEDSineTest_beh.prj"/>
+      <outfile xil_pn:name="LEDSineTest_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913897" xil_pn:in_ck="-2725405682027095905" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8226244273283011454" xil_pn:start_ts="1484913897">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LEDSineTest_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8177420447019934911" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7453737345931548674" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:in_ck="-2674755482453352904" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7361167997123106567" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="dcm133.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1110319057744218877" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912165" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8609470184529884472" xil_pn:start_ts="1484912165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913189" xil_pn:in_ck="7950902137147180459" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-1778781752758763288" xil_pn:start_ts="1484913174">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LEDSine.lso"/>
+      <outfile xil_pn:name="LEDSine.ngc"/>
+      <outfile xil_pn:name="LEDSine.ngr"/>
+      <outfile xil_pn:name="LEDSine.prj"/>
+      <outfile xil_pn:name="LEDSine.stx"/>
+      <outfile xil_pn:name="LEDSine.syr"/>
+      <outfile xil_pn:name="LEDSine.xst"/>
+      <outfile xil_pn:name="LEDSine_vhdl.prj"/>
+      <outfile xil_pn:name="LEDSine_xst.xrpt"/>
+      <outfile xil_pn:name="PWM.ngr"/>
+      <outfile xil_pn:name="Sine_Compound.ngr"/>
+      <outfile xil_pn:name="Sine_Delayer.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912181" xil_pn:in_ck="-4136661428498330096" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1131922065377567396" xil_pn:start_ts="1484912181">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913196" xil_pn:in_ck="6952705268042476315" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7079199457761642650" xil_pn:start_ts="1484913189">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LEDSine.bld"/>
+      <outfile xil_pn:name="LEDSine.ngd"/>
+      <outfile xil_pn:name="LEDSine_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913201" xil_pn:in_ck="3763012160618587030" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-2445049779091787521" xil_pn:start_ts="1484913196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LEDSine.pcf"/>
+      <outfile xil_pn:name="LEDSine_map.map"/>
+      <outfile xil_pn:name="LEDSine_map.mrp"/>
+      <outfile xil_pn:name="LEDSine_map.ncd"/>
+      <outfile xil_pn:name="LEDSine_map.ngm"/>
+      <outfile xil_pn:name="LEDSine_map.xrpt"/>
+      <outfile xil_pn:name="LEDSine_summary.xml"/>
+      <outfile xil_pn:name="LEDSine_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913218" xil_pn:in_ck="-2854775178766270008" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3333849164707216606" xil_pn:start_ts="1484913201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LEDSine.ncd"/>
+      <outfile xil_pn:name="LEDSine.pad"/>
+      <outfile xil_pn:name="LEDSine.par"/>
+      <outfile xil_pn:name="LEDSine.ptwx"/>
+      <outfile xil_pn:name="LEDSine.unroutes"/>
+      <outfile xil_pn:name="LEDSine.xpi"/>
+      <outfile xil_pn:name="LEDSine_pad.csv"/>
+      <outfile xil_pn:name="LEDSine_pad.txt"/>
+      <outfile xil_pn:name="LEDSine_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913227" xil_pn:in_ck="-4136986394126037346" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1484913218">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LEDSine.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="ledsine.bgn"/>
+      <outfile xil_pn:name="ledsine.bit"/>
+      <outfile xil_pn:name="ledsine.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1484908976" xil_pn:in_ck="8939223315659749330" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="-6864680952955714571" xil_pn:start_ts="1484908976">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1484912267" xil_pn:in_ck="8939223315659749330" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="-7052584534157616599" xil_pn:start_ts="1484912266">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1484913218" xil_pn:in_ck="-8248736251166899570" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1484913214">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LEDSine.twr"/>
+      <outfile xil_pn:name="LEDSine.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

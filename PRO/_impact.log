@@ -1,0 +1,114 @@
+iMPACT Version: 
+iMPACT log file Started on Wed Dec 07 12:59:22 2016
+
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : loadProjectFile -file "C:/workspace/PRO/PRO.ipf"
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/xcf/data/xcf01s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf01s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': Loading file 'c:/workspace/pro/pro.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/spartan3/data/xc3s200.bsd...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '2': Added Device xc3s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\WINDOWS\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ Driver xusbdfwu.sys version: 1018 (1020).
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+Cable autodetection failed.
+ Count ReleaseSemaphore rc = 298.
+// *** BATCH CMD : setCable -port stapl -file "LPT"
+ERROR:iMPACT:1484 - Invalid file type. Please specify a .svf , .xsvf or .stapl   file.
+ Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\WINDOWS\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ Driver xusbdfwu.sys version: 1018 (1020).
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+Cable autodetection failed.
+ Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\WINDOWS\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ Driver xusbdfwu.sys version: 1018 (1020).
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+Cable autodetection failed.

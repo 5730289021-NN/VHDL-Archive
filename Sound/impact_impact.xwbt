@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\noraw\XilinxWorkspace\Sound\impact.xsl
+OUTFILE=C:\Users\noraw\XilinxWorkspace\Sound\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=C:\Users\noraw\XilinxWorkspace\Sound
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/noraw/Documents/VHDL/PRO/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/noraw/Documents/VHDL/PRO/xst"
+elaborate
+-ifn sevenseg.prj
+-ifmt mixed

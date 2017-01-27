@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "BRin[0]" LOC = P47;
+NET "BRin[1]" LOC = P46;
+NET "BRin[2]" LOC = P44;
+NET "keybit[0]" LOC = P70;
+NET "keybit[1]" LOC = P77;
+NET "keybit[2]" LOC = P69;
+NET "keybit[3]" LOC = P76;
+NET "keybit[4]" LOC = P74;
+NET "keybit[5]" LOC = P79;
+NET "keybit[6]" LOC = P73;
+NET "keybit[7]" LOC = P78;
+NET "startbit" LOC = P40;
+NET "stopbit" LOC = P35;

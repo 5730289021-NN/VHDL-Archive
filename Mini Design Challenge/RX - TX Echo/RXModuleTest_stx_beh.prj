@@ -1,0 +1,3 @@
+vhdl isim_temp "TXModule.vhd"
+vhdl isim_temp "RXModule.vhd"
+vhdl isim_temp "RXModuleTest.vhd"

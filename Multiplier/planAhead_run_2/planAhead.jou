@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Dec 07 11:16:53 2016
+# Process ID: 728
+# Log file: C:/Users/noraw/Documents/VHDL/Multiplier/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/Multiplier/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/Multiplier/pa.fromNetlist.tcl
+set_property package_pin "" [get_ports [list  {Dips[7]}]]
+startgroup
+set_property package_pin P31 [get_ports {Digits[1]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {Digits[2]}]
+endgroup
+startgroup
+set_property package_pin P36 [get_ports {Digits[3]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {Digits[4]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {Dips[7]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {Dips[6]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {Dips[5]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {Dips[4]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {Dips[3]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Dips[2]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {Dips[1]}]
+endgroup
+startgroup
+set_property package_pin P52 [get_ports {Dips[7]}]
+endgroup
+startgroup
+set_property package_pin P53 [get_ports {Dips[6]}]
+endgroup
+startgroup
+set_property package_pin P55 [get_ports {Dips[5]}]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports {Dips[4]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {Dips[3]}]
+endgroup
+startgroup
+set_property package_pin P60 [get_ports {Dips[2]}]
+endgroup
+startgroup
+set_property package_pin P63 [get_ports {Dips[1]}]
+endgroup
+startgroup
+set_property package_pin P68 [get_ports {Dips[0]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {Segments[4]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {Segments[3]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {Segments[2]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Segments[1]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {Segments[0]}]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports Clock]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports ClrButton]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports MultiplyButton]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports SetButton]
+endgroup
+save_constraints

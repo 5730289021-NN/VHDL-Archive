@@ -1,0 +1,10 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "a" LOC = P124;
+NET "clock" LOC = P127;
+
+# PlanAhead Generated IO constraints 
+
+NET "a" SLEW = FAST;
+NET "a" DRIVE = 24;

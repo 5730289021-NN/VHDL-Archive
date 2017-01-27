@@ -1,0 +1,598 @@
+(edif TopModule
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2016 11 19 22 45 9)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure TopModule.ngc TopModule.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell GND
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port G
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell VCC
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port P
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell FD
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT4
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port I3
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell FDR
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port R
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT3
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell BUFGP
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library TopModule_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell TopModule
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port CLK
+              (direction INPUT)
+            )
+            (port (array (rename DGs "DGs<3:0>") 4)
+              (direction OUTPUT))
+            (port (array (rename Segments "Segments<6:0>") 7)
+              (direction OUTPUT))
+            (port (array (rename bcd "bcd<3:0>") 4)
+              (direction INPUT))
+            (designator "xc3s200-4-tq144")
+            (property TYPE (string "TopModule") (owner "Xilinx"))
+            (property BUS_INFO (string "4:OUTPUT:DGs<3:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "7:OUTPUT:Segments<6:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "4:INPUT:bcd<3:0>") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "TopModule_TopModule") (owner "Xilinx"))
+          )
+          (contents
+            (instance XST_GND
+              (viewRef view_1 (cellRef GND (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance XST_VCC
+              (viewRef view_1 (cellRef VCC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename Segments_1_renamed_0 "Segments_1")
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename Segments_2_renamed_1 "Segments_2")
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename Segments_3_renamed_2 "Segments_3")
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename Segments_4_renamed_3 "Segments_4")
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename Segments_5_renamed_4 "Segments_5")
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename Segments_6_renamed_5 "Segments_6")
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux000121
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "445C") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux000141
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "80C2") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux0001111
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6432") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux000161
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "2C06") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux000151
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "E448") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux000131
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "A118") (owner "Xilinx"))
+            )
+            (instance (rename bcd_3_IBUF_renamed_6 "bcd_3_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename bcd_2_IBUF_renamed_7 "bcd_2_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename bcd_1_IBUF_renamed_8 "bcd_1_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename bcd_0_IBUF_renamed_9 "bcd_0_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance DGs_3_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance DGs_2_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename DGs_1_OBUF_renamed_10 "DGs_1_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename DGs_0_OBUF_renamed_11 "DGs_0_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_6_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_5_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_4_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_3_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_2_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_1_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Segments_0_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename Segments_0_renamed_12 "Segments_0")
+              (viewRef view_1 (cellRef FDR (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance Mrom_Segments_mux0001121
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "91") (owner "Xilinx"))
+            )
+            (instance (rename CLK_BUFGP_renamed_13 "CLK_BUFGP")
+              (viewRef view_1 (cellRef BUFGP (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net CLK
+              (joined
+                (portRef CLK)
+                (portRef I (instanceRef CLK_BUFGP_renamed_13))
+              )
+            )
+            (net CLK_BUFGP
+              (joined
+                (portRef C (instanceRef Segments_1_renamed_0))
+                (portRef C (instanceRef Segments_2_renamed_1))
+                (portRef C (instanceRef Segments_3_renamed_2))
+                (portRef C (instanceRef Segments_4_renamed_3))
+                (portRef C (instanceRef Segments_5_renamed_4))
+                (portRef C (instanceRef Segments_6_renamed_5))
+                (portRef C (instanceRef Segments_0_renamed_12))
+                (portRef O (instanceRef CLK_BUFGP_renamed_13))
+              )
+            )
+            (net (rename DGs_0_ "DGs<0>")
+              (joined
+                (portRef (member DGs 3))
+                (portRef O (instanceRef DGs_0_OBUF_renamed_11))
+              )
+            )
+            (net (rename DGs_1_ "DGs<1>")
+              (joined
+                (portRef (member DGs 2))
+                (portRef O (instanceRef DGs_1_OBUF_renamed_10))
+              )
+            )
+            (net (rename DGs_2_ "DGs<2>")
+              (joined
+                (portRef (member DGs 1))
+                (portRef O (instanceRef DGs_2_OBUF))
+              )
+            )
+            (net (rename DGs_3_ "DGs<3>")
+              (joined
+                (portRef (member DGs 0))
+                (portRef O (instanceRef DGs_3_OBUF))
+              )
+            )
+            (net DGs_0_OBUF
+              (joined
+                (portRef P (instanceRef XST_VCC))
+                (portRef I (instanceRef DGs_0_OBUF_renamed_11))
+              )
+            )
+            (net DGs_1_OBUF
+              (joined
+                (portRef G (instanceRef XST_GND))
+                (portRef I (instanceRef DGs_3_OBUF))
+                (portRef I (instanceRef DGs_2_OBUF))
+                (portRef I (instanceRef DGs_1_OBUF_renamed_10))
+              )
+            )
+            (net Mrom_Segments_mux00011
+              (joined
+                (portRef D (instanceRef Segments_1_renamed_0))
+                (portRef O (instanceRef Mrom_Segments_mux0001111))
+              )
+            )
+            (net Mrom_Segments_mux000112
+              (joined
+                (portRef O (instanceRef Mrom_Segments_mux0001121))
+                (portRef D (instanceRef Segments_0_renamed_12))
+              )
+            )
+            (net Mrom_Segments_mux00012
+              (joined
+                (portRef D (instanceRef Segments_2_renamed_1))
+                (portRef O (instanceRef Mrom_Segments_mux000121))
+              )
+            )
+            (net Mrom_Segments_mux00013
+              (joined
+                (portRef D (instanceRef Segments_3_renamed_2))
+                (portRef O (instanceRef Mrom_Segments_mux000131))
+              )
+            )
+            (net Mrom_Segments_mux00014
+              (joined
+                (portRef D (instanceRef Segments_4_renamed_3))
+                (portRef O (instanceRef Mrom_Segments_mux000141))
+              )
+            )
+            (net Mrom_Segments_mux00015
+              (joined
+                (portRef D (instanceRef Segments_5_renamed_4))
+                (portRef O (instanceRef Mrom_Segments_mux000151))
+              )
+            )
+            (net Mrom_Segments_mux00016
+              (joined
+                (portRef D (instanceRef Segments_6_renamed_5))
+                (portRef O (instanceRef Mrom_Segments_mux000161))
+              )
+            )
+            (net (rename Segments_0_ "Segments<0>")
+              (joined
+                (portRef (member Segments 6))
+                (portRef O (instanceRef Segments_0_OBUF))
+              )
+            )
+            (net (rename Segments_1_ "Segments<1>")
+              (joined
+                (portRef (member Segments 5))
+                (portRef O (instanceRef Segments_1_OBUF))
+              )
+            )
+            (net (rename Segments_2_ "Segments<2>")
+              (joined
+                (portRef (member Segments 4))
+                (portRef O (instanceRef Segments_2_OBUF))
+              )
+            )
+            (net (rename Segments_3_ "Segments<3>")
+              (joined
+                (portRef (member Segments 3))
+                (portRef O (instanceRef Segments_3_OBUF))
+              )
+            )
+            (net (rename Segments_4_ "Segments<4>")
+              (joined
+                (portRef (member Segments 2))
+                (portRef O (instanceRef Segments_4_OBUF))
+              )
+            )
+            (net (rename Segments_5_ "Segments<5>")
+              (joined
+                (portRef (member Segments 1))
+                (portRef O (instanceRef Segments_5_OBUF))
+              )
+            )
+            (net (rename Segments_6_ "Segments<6>")
+              (joined
+                (portRef (member Segments 0))
+                (portRef O (instanceRef Segments_6_OBUF))
+              )
+            )
+            (net Segments_0
+              (joined
+                (portRef I (instanceRef Segments_0_OBUF))
+                (portRef Q (instanceRef Segments_0_renamed_12))
+              )
+            )
+            (net Segments_1
+              (joined
+                (portRef Q (instanceRef Segments_1_renamed_0))
+                (portRef I (instanceRef Segments_1_OBUF))
+              )
+            )
+            (net Segments_2
+              (joined
+                (portRef Q (instanceRef Segments_2_renamed_1))
+                (portRef I (instanceRef Segments_2_OBUF))
+              )
+            )
+            (net Segments_3
+              (joined
+                (portRef Q (instanceRef Segments_3_renamed_2))
+                (portRef I (instanceRef Segments_3_OBUF))
+              )
+            )
+            (net Segments_4
+              (joined
+                (portRef Q (instanceRef Segments_4_renamed_3))
+                (portRef I (instanceRef Segments_4_OBUF))
+              )
+            )
+            (net Segments_5
+              (joined
+                (portRef Q (instanceRef Segments_5_renamed_4))
+                (portRef I (instanceRef Segments_5_OBUF))
+              )
+            )
+            (net Segments_6
+              (joined
+                (portRef Q (instanceRef Segments_6_renamed_5))
+                (portRef I (instanceRef Segments_6_OBUF))
+              )
+            )
+            (net (rename bcd_0_ "bcd<0>")
+              (joined
+                (portRef (member bcd 3))
+                (portRef I (instanceRef bcd_0_IBUF_renamed_9))
+              )
+            )
+            (net (rename bcd_1_ "bcd<1>")
+              (joined
+                (portRef (member bcd 2))
+                (portRef I (instanceRef bcd_1_IBUF_renamed_8))
+              )
+            )
+            (net (rename bcd_2_ "bcd<2>")
+              (joined
+                (portRef (member bcd 1))
+                (portRef I (instanceRef bcd_2_IBUF_renamed_7))
+              )
+            )
+            (net (rename bcd_3_ "bcd<3>")
+              (joined
+                (portRef (member bcd 0))
+                (portRef I (instanceRef bcd_3_IBUF_renamed_6))
+              )
+            )
+            (net bcd_0_IBUF
+              (joined
+                (portRef I1 (instanceRef Mrom_Segments_mux000121))
+                (portRef I3 (instanceRef Mrom_Segments_mux000141))
+                (portRef I2 (instanceRef Mrom_Segments_mux0001111))
+                (portRef I0 (instanceRef Mrom_Segments_mux000161))
+                (portRef I0 (instanceRef Mrom_Segments_mux000151))
+                (portRef I2 (instanceRef Mrom_Segments_mux000131))
+                (portRef O (instanceRef bcd_0_IBUF_renamed_9))
+                (portRef I2 (instanceRef Mrom_Segments_mux0001121))
+              )
+            )
+            (net bcd_1_IBUF
+              (joined
+                (portRef I3 (instanceRef Mrom_Segments_mux000121))
+                (portRef I0 (instanceRef Mrom_Segments_mux000141))
+                (portRef I0 (instanceRef Mrom_Segments_mux0001111))
+                (portRef I2 (instanceRef Mrom_Segments_mux000161))
+                (portRef I2 (instanceRef Mrom_Segments_mux000151))
+                (portRef I0 (instanceRef Mrom_Segments_mux000131))
+                (portRef O (instanceRef bcd_1_IBUF_renamed_8))
+                (portRef I0 (instanceRef Mrom_Segments_mux0001121))
+              )
+            )
+            (net bcd_2_IBUF
+              (joined
+                (portRef I2 (instanceRef Mrom_Segments_mux000121))
+                (portRef I1 (instanceRef Mrom_Segments_mux000141))
+                (portRef I3 (instanceRef Mrom_Segments_mux0001111))
+                (portRef I1 (instanceRef Mrom_Segments_mux000161))
+                (portRef I1 (instanceRef Mrom_Segments_mux000151))
+                (portRef I3 (instanceRef Mrom_Segments_mux000131))
+                (portRef O (instanceRef bcd_2_IBUF_renamed_7))
+                (portRef I1 (instanceRef Mrom_Segments_mux0001121))
+              )
+            )
+            (net bcd_3_IBUF
+              (joined
+                (portRef I0 (instanceRef Mrom_Segments_mux000121))
+                (portRef I2 (instanceRef Mrom_Segments_mux000141))
+                (portRef I1 (instanceRef Mrom_Segments_mux0001111))
+                (portRef I3 (instanceRef Mrom_Segments_mux000161))
+                (portRef I3 (instanceRef Mrom_Segments_mux000151))
+                (portRef I1 (instanceRef Mrom_Segments_mux000131))
+                (portRef O (instanceRef bcd_3_IBUF_renamed_6))
+                (portRef R (instanceRef Segments_0_renamed_12))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design TopModule
+    (cellRef TopModule
+      (libraryRef TopModule_lib)
+    )
+    (property PART (string "xc3s200-4-tq144") (owner "Xilinx"))
+  )
+)
+

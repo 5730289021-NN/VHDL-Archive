@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Dec 29 19:32:07 2016
+# Process ID: 5684
+# Log file: C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P52 [get_ports {DipSW[7]}]
+endgroup
+startgroup
+set_property package_pin P53 [get_ports {DipSW[6]}]
+endgroup
+startgroup
+set_property package_pin P55 [get_ports {DipSW[5]}]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports {DipSW[4]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {DipSW[3]}]
+endgroup
+startgroup
+set_property package_pin P60 [get_ports {DipSW[2]}]
+endgroup
+startgroup
+set_property package_pin P63 [get_ports {DipSW[1]}]
+endgroup
+startgroup
+set_property package_pin P68 [get_ports {DipSW[0]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports SendB]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports SysClk]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports SysRstB]
+endgroup
+startgroup
+set_property package_pin P131 [get_ports TX]
+endgroup
+save_constraints

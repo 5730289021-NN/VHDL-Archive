@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Dec 07 13:27:21 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Segments<0>" LOCATE = SITE "P23" LEVEL 1;
+COMP "Segments<1>" LOCATE = SITE "P25" LEVEL 1;
+COMP "Segments<2>" LOCATE = SITE "P27" LEVEL 1;
+COMP "Segments<3>" LOCATE = SITE "P30" LEVEL 1;
+COMP "Segments<4>" LOCATE = SITE "P32" LEVEL 1;
+COMP "Segments<5>" LOCATE = SITE "P35" LEVEL 1;
+COMP "Segments<6>" LOCATE = SITE "P40" LEVEL 1;
+COMP "Dips<0>" LOCATE = SITE "P68" LEVEL 1;
+COMP "Dips<1>" LOCATE = SITE "P63" LEVEL 1;
+COMP "Dips<2>" LOCATE = SITE "P60" LEVEL 1;
+COMP "Dips<3>" LOCATE = SITE "P59" LEVEL 1;
+COMP "Dips<4>" LOCATE = SITE "P56" LEVEL 1;
+COMP "Dips<5>" LOCATE = SITE "P55" LEVEL 1;
+COMP "Dips<6>" LOCATE = SITE "P53" LEVEL 1;
+COMP "Dips<7>" LOCATE = SITE "P52" LEVEL 1;
+COMP "Clock" LOCATE = SITE "P127" LEVEL 1;
+COMP "Digits<1>" LOCATE = SITE "P31" LEVEL 1;
+COMP "Digits<2>" LOCATE = SITE "P33" LEVEL 1;
+COMP "Digits<3>" LOCATE = SITE "P36" LEVEL 1;
+COMP "ClrButton" LOCATE = SITE "P47" LEVEL 1;
+COMP "Digits<4>" LOCATE = SITE "P41" LEVEL 1;
+COMP "PlusButton" LOCATE = SITE "P50" LEVEL 1;
+COMP "SetButton" LOCATE = SITE "P44" LEVEL 1;
+COMP "MultiplyButton" LOCATE = SITE "P46" LEVEL 1;
+COMP "MinusButton" LOCATE = SITE "P51" LEVEL 1;
+NET "Clock_BUFGP/IBUFG" BEL "Clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

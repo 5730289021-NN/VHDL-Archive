@@ -1,0 +1,69 @@
+V3 46
+FL C:/Users/noraw/Documents/VHDL/PWM/dcm133.vhd 2016/12/14.17:50:14 P.20131013
+EN work/dcm133 1484913182 FL C:/Users/noraw/Documents/VHDL/PWM/dcm133.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dcm133/BEHAVIORAL 1484913183 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/dcm133.vhd EN work/dcm133 1484913182 \
+      CP BUFG CP IBUFG CP DCM
+FL C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd 2017/01/20.18:52:52 P.20131013
+EN work/LEDSine 1484913190 FL C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LEDSine/Behavioral 1484913191 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd EN work/LEDSine 1484913190 \
+      CP dcm133 CP Sine_ClkPerTick_Decoder CP Sine_Delay_Decoder CP Sine_Compound
+FL C:/Users/noraw/Documents/VHDL/PWM/PWM.vhd 2017/01/16.14:01:27 P.20131013
+EN work/PWM 1484913180 FL C:/Users/noraw/Documents/VHDL/PWM/PWM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/PWM/Behavioral 1484913181 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/PWM.vhd EN work/PWM 1484913180
+FL C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd 2017/01/17.19:55:49 P.20131013
+EN work/Sine_Generator 1484913178 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Sine_Generator/Behavioral 1484913179 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd \
+      EN work/Sine_Generator 1484913178
+FL C:/Users/noraw/Documents/VHDL/PWM/Sine_ClkPerTickDecoder.vhd 2017/01/17.21:59:17 P.20131013
+EN work/Sine_ClkPerTick_Decoder 1484913184 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_ClkPerTickDecoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Sine_ClkPerTick_Decoder/Behavioral 1484913185 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_ClkPerTickDecoder.vhd \
+      EN work/Sine_ClkPerTick_Decoder 1484913184
+FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound.vhd 2017/01/18.23:54:25 P.20131013
+EN work/Sine_Compound 1484913188 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Sine_Compound/Behavioral 1484913189 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound.vhd \
+      EN work/Sine_Compound 1484913188 CP Sine_Delayer CP Sine_Generator CP PWM
+FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound_NoDelay.vhd 2017/01/18.23:41:57 P.20131013
+EN work/Sine_Compound_NoDelay 1484758204 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound_NoDelay.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Sine_Compound_NoDelay/Behavioral 1484758205 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound_NoDelay.vhd \
+      EN work/Sine_Compound_NoDelay 1484758204 CP Sine_Generator CP PWM
+FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Delayer.vhd 2017/01/18.23:57:32 P.20131013
+EN work/Sine_Delayer 1484913176 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Delayer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Sine_Delayer/Behavioral 1484913177 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_Delayer.vhd EN work/Sine_Delayer 1484913176
+FL C:/Users/noraw/Documents/VHDL/PWM/Sine_DelayMaker.vhd 2017/01/20.18:39:08 P.20131013
+EN work/Sine_Delay_Decoder 1484913186 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_DelayMaker.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Sine_Delay_Decoder/Behavioral 1484913187 \
+      FL C:/Users/noraw/Documents/VHDL/PWM/Sine_DelayMaker.vhd \
+      EN work/Sine_Delay_Decoder 1484913186
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/dcm133.vhd" 2016/12/14.17:50:14 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/LEDSine.vhd" 2017/01/17.22:24:07 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.vhd" 2017/01/16.14:01:27 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/SineGenerator.vhd" 2017/01/17.19:55:49 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/Sine_ClkPerTickDecoder.vhd" 2017/01/17.21:59:17 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/Sine_Compound.vhd" 2017/01/17.22:19:01 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/Sine_Delayer.vhd" 2017/01/17.22:13:50 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/Sine_DelayMaker.vhd" 2017/01/17.21:57:14 P.20131013

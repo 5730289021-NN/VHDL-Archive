@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\noraw\Documents\VHDL\Pro3\Main.ncd
+OUTFILE=C:\Users\noraw\Documents\VHDL\Pro3\Main.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=C:\Users\noraw\Documents\VHDL\Pro3
+LICENSE=WebPack
+USER_INFO=211176972_0_0_656

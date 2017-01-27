@@ -1,0 +1,474 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: TXModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TXModule.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TXModule"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : TXModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/TXModule/dcm133.vhd" in Library work.
+Architecture behavioral of Entity dcm133 is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd" in Library work.
+Entity <txmodule> compiled.
+Entity <txmodule> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TXModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dcm133> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TXModule> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd" line 75: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm133'.
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd" line 75: Unconnected output port 'CLK0_OUT' of component 'dcm133'.
+INFO:Xst:1561 - "C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd" line 100: Mux is complete : default of case is discarded
+Entity <TXModule> analyzed. Unit <TXModule> generated.
+
+Analyzing Entity <dcm133> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_MULTIPLY =  16" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_PERIOD =  40.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "FACTORY_JF =  8080" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+Entity <dcm133> analyzed. Unit <dcm133> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <dcm133>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/TXModule/dcm133.vhd".
+Unit <dcm133> synthesized.
+
+
+Synthesizing Unit <TXModule>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd".
+    Found 8x15-bit ROM for signal <UART_ClkPerBit$mux0002> created at line 92.
+    Found 32-bit up counter for signal <posSending>.
+    Found 32-bit comparator greater for signal <posSending$cmp_gt0000> created at line 143.
+    Found 32-bit comparator less for signal <posSending$cmp_lt0000> created at line 143.
+    Found 1-bit register for signal <TXBuffer>.
+    Found 1-bit register for signal <TXSending>.
+    Found 32-bit comparator greatequal for signal <TXSending$cmp_ge0000> created at line 143.
+    Found 32-bit comparator lessequal for signal <TXSending$cmp_le0000> created at line 143.
+    Found 32-bit comparator less for signal <TXSending$cmp_lt0000> created at line 135.
+    Found 32-bit up counter for signal <UART_ClkCounter>.
+    Found 32-bit comparator greatequal for signal <UART_ClkCounter$cmp_ge0000> created at line 135.
+    Found 15-bit register for signal <UART_ClkPerBit>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   2 Counter(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <TXModule> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x15-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 3
+ 1-bit register                                        : 2
+ 15-bit register                                       : 1
+# Comparators                                          : 6
+ 32-bit comparator greatequal                          : 2
+ 32-bit comparator greater                             : 1
+ 32-bit comparator less                                : 2
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <TXModule>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_UART_ClkPerBit_mux0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <TXModule> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x15-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Comparators                                          : 6
+ 32-bit comparator greatequal                          : 2
+ 32-bit comparator greater                             : 1
+ 32-bit comparator less                                : 2
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TXModule> ...
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <TXModule> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TXModule, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 79
+ Flip-Flops                                            : 79
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TXModule.ngr
+Top Level Output File Name         : TXModule
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 348
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 64
+#      LUT2                        : 50
+#      LUT2_L                      : 2
+#      LUT3                        : 7
+#      LUT3_D                      : 1
+#      LUT4                        : 40
+#      MUXCY                       : 110
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 79
+#      FD                          : 11
+#      FDR                         : 2
+#      FDRE                        : 65
+#      FDSE                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 14
+#      IBUF                        : 10
+#      IBUFG                       : 1
+#      OBUF                        : 3
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                       96  out of   1920     5%  
+ Number of Slice Flip Flops:             79  out of   3840     2%  
+ Number of 4 input LUTs:                171  out of   3840     4%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of     97    14%  
+ Number of GCLKs:                         2  out of      8    25%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SysClk                             | u_dcm133/DCM_INST:CLKFX| 79    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 48.470ns (Maximum Frequency: 20.631MHz)
+   Minimum input arrival time before clock: 6.533ns
+   Maximum output required time after clock: 8.246ns
+   Maximum combinational path delay: 7.342ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SysClk'
+  Clock period: 48.470ns (frequency: 20.631MHz)
+  Total number of paths / destination ports: 11752 / 196
+-------------------------------------------------------------------------
+Delay:               9.088ns (Levels of Logic = 10)
+  Source:            posSending_8 (FF)
+  Destination:       posSending_0 (FF)
+  Source Clock:      SysClk rising 5.3X
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: posSending_8 to posSending_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   0.720   1.256  posSending_8 (posSending_8)
+     LUT4:I0->O            1   0.551   0.000  TXSending_cmp_eq0000_wg_lut<0> (TXSending_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  TXSending_cmp_eq0000_wg_cy<0> (TXSending_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  TXSending_cmp_eq0000_wg_cy<1> (TXSending_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  TXSending_cmp_eq0000_wg_cy<2> (TXSending_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  TXSending_cmp_eq0000_wg_cy<3> (TXSending_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  TXSending_cmp_eq0000_wg_cy<4> (TXSending_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  TXSending_cmp_eq0000_wg_cy<5> (TXSending_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  TXSending_cmp_eq0000_wg_cy<6> (TXSending_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          36   0.303   1.944  TXSending_cmp_eq0000_wg_cy<7> (TXSending_cmp_eq0000_wg_cy<7>)
+     LUT4:I2->O           32   0.551   1.853  posSending_or00001 (posSending_or0000)
+     FDRE:R                    1.026          posSending_0
+    ----------------------------------------
+    Total                      9.088ns (4.035ns logic, 5.053ns route)
+                                       (44.4% logic, 55.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SysClk'
+  Total number of paths / destination ports: 41 / 17
+-------------------------------------------------------------------------
+Offset:              6.533ns (Levels of Logic = 6)
+  Source:            DipSW<4> (PAD)
+  Destination:       TXBuffer (FF)
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: DipSW<4> to TXBuffer
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.996  DipSW_4_IBUF (DipSW_4_IBUF)
+     LUT4:I1->O            1   0.551   0.827  TXBuffer_mux000211 (TXBuffer_mux000211)
+     LUT4:I3->O            1   0.551   0.000  TXBuffer_mux000271_G (N13)
+     MUXF5:I1->O           1   0.360   0.996  TXBuffer_mux000271 (TXBuffer_mux000271)
+     LUT2_L:I1->LO         1   0.551   0.126  TXBuffer_mux00023_SW0 (N10)
+     LUT4:I3->O            1   0.551   0.000  TXBuffer_mux0002117 (TXBuffer_mux0002)
+     FDSE:D                    0.203          TXBuffer
+    ----------------------------------------
+    Total                      6.533ns (3.588ns logic, 2.945ns route)
+                                       (54.9% logic, 45.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SysClk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              8.246ns (Levels of Logic = 1)
+  Source:            TXSending (FF)
+  Destination:       LED2 (PAD)
+  Source Clock:      SysClk rising 5.3X
+
+  Data Path: TXSending to LED2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            37   0.720   1.882  TXSending (TXSending)
+     OBUF:I->O                 5.644          LED2_OBUF (LED2)
+    ----------------------------------------
+    Total                      8.246ns (6.364ns logic, 1.882ns route)
+                                       (77.2% logic, 22.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               7.342ns (Levels of Logic = 2)
+  Source:            SendB (PAD)
+  Destination:       LED1 (PAD)
+
+  Data Path: SendB to LED1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.821   0.877  SendB_IBUF (LED1_OBUF)
+     OBUF:I->O                 5.644          LED1_OBUF (LED1)
+    ----------------------------------------
+    Total                      7.342ns (6.465ns logic, 0.877ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.58 secs
+ 
+--> 
+
+Total memory usage is 306872 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

@@ -1,0 +1,20 @@
+EN sine_compound_nodelay NULL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound_NoDelay.vhd sub00/vhpl18 1484758204
+EN sine_clkpertick_decoder NULL C:/Users/noraw/Documents/VHDL/PWM/Sine_ClkPerTickDecoder.vhd sub00/vhpl12 1484913184
+EN sine_delaydecoder NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/Sine_DelayMaker.vhd" sub00/vhpl08 1484659752
+EN pwm NULL C:/Users/noraw/Documents/VHDL/PWM/PWM.vhd sub00/vhpl00 1484913180
+AR dcm133 behavioral C:/Users/noraw/Documents/VHDL/PWM/dcm133.vhd sub00/vhpl03 1484913183
+EN ledsine NULL C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd sub00/vhpl04 1484913190
+AR sine_clkpertick_decoder behavioral C:/Users/noraw/Documents/VHDL/PWM/Sine_ClkPerTickDecoder.vhd sub00/vhpl13 1484913185
+EN dcm133 NULL C:/Users/noraw/Documents/VHDL/PWM/dcm133.vhd sub00/vhpl02 1484913182
+AR sine_delay_decoder behavioral C:/Users/noraw/Documents/VHDL/PWM/Sine_DelayMaker.vhd sub00/vhpl14 1484913187
+AR ledsine behavioral C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd sub00/vhpl17 1484913191
+EN sine_compound NULL C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound.vhd sub00/vhpl15 1484913188
+AR pwm behavioral C:/Users/noraw/Documents/VHDL/PWM/PWM.vhd sub00/vhpl01 1484913181
+EN sine_delay_decoder NULL C:/Users/noraw/Documents/VHDL/PWM/Sine_DelayMaker.vhd sub00/vhpl07 1484913186
+EN sine_generator NULL C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd sub00/vhpl05 1484913178
+AR sine_compound_nodelay behavioral C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound_NoDelay.vhd sub00/vhpl19 1484758205
+AR sine_generator behavioral C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd sub00/vhpl06 1484913179
+EN sine_delayer NULL C:/Users/noraw/Documents/VHDL/PWM/Sine_Delayer.vhd sub00/vhpl10 1484913176
+AR sine_delaydecoder behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/Sine_DelayMaker.vhd" sub00/vhpl09 1484659753
+AR sine_compound behavioral C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound.vhd sub00/vhpl16 1484913189
+AR sine_delayer behavioral C:/Users/noraw/Documents/VHDL/PWM/Sine_Delayer.vhd sub00/vhpl11 1484913177

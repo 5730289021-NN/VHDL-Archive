@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.xst" -ofn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.xst" -ofn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.xst" -ofn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.xst" -ofn "C:/Users/noraw/Documents/VHDL/ClockDivider/CD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CD.ucf -p xc3s200-tq144-4 CD.ngc CD.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o CD_map.ncd CD.ngd CD.pcf 
+par -w -intstyle ise -ol high -t 1 CD_map.ncd CD.ncd CD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CD.twx CD.ncd -o CD.twr CD.pcf -ucf CD.ucf 
+bitgen -intstyle ise -f CD.ut CD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CD.ucf -p xc3s200-tq144-4 CD.ngc CD.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o CD_map.ncd CD.ngd CD.pcf 
+par -w -intstyle ise -ol high -t 1 CD_map.ncd CD.ncd CD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CD.twx CD.ncd -o CD.twr CD.pcf -ucf CD.ucf 
+bitgen -intstyle ise -f CD.ut CD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CD.ucf -p xc3s200-tq144-4 CD.ngc CD.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o CD_map.ncd CD.ngd CD.pcf 
+par -w -intstyle ise -ol high -t 1 CD_map.ncd CD.ncd CD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CD.twx CD.ncd -o CD.twr CD.pcf -ucf CD.ucf 
+bitgen -intstyle ise -f CD.ut CD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CD.ucf -p xc3s200-tq144-4 CD.ngc CD.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o CD_map.ncd CD.ngd CD.pcf 
+par -w -intstyle ise -ol high -t 1 CD_map.ncd CD.ncd CD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CD.twx CD.ncd -o CD.twr CD.pcf -ucf CD.ucf 
+bitgen -intstyle ise -f CD.ut CD.ncd 

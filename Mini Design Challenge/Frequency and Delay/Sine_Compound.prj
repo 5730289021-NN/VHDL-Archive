@@ -1,0 +1,4 @@
+vhdl work "Sine_Delayer.vhd"
+vhdl work "SineGenerator.vhd"
+vhdl work "PWM.vhd"
+vhdl work "Sine_Compound.vhd"

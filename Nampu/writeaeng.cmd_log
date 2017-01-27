@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 writeaeng.ngc writeaeng.ngd  
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu/writeaeng.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 writeaeng.ngc writeaeng.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writeaeng_map.ncd writeaeng.ngd writeaeng.pcf 
+par -w -intstyle ise -ol high -t 1 writeaeng_map.ncd writeaeng.ncd writeaeng.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writeaeng.twx writeaeng.ncd -o writeaeng.twr writeaeng.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writeaeng.ucf -p xc3s200-tq144-4 writeaeng.ngc writeaeng.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writeaeng_map.ncd writeaeng.ngd writeaeng.pcf 
+par -w -intstyle ise -ol high -t 1 writeaeng_map.ncd writeaeng.ncd writeaeng.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writeaeng.twx writeaeng.ncd -o writeaeng.twr writeaeng.pcf -ucf writeaeng.ucf 
+bitgen -intstyle ise -f writeaeng.ut writeaeng.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writeaeng.ucf -p xc3s200-tq144-4 writeaeng.ngc writeaeng.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writeaeng_map.ncd writeaeng.ngd writeaeng.pcf 
+par -w -intstyle ise -ol high -t 1 writeaeng_map.ncd writeaeng.ncd writeaeng.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writeaeng.twx writeaeng.ncd -o writeaeng.twr writeaeng.pcf -ucf writeaeng.ucf 
+bitgen -intstyle ise -f writeaeng.ut writeaeng.ncd 

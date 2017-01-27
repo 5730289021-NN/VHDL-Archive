@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jan 18 11:40:06 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SysRstB" LOCATE = SITE "P44" LEVEL 1;
+COMP "DipSW<0>" LOCATE = SITE "P68" LEVEL 1;
+COMP "DipSW<1>" LOCATE = SITE "P63" LEVEL 1;
+COMP "DipSW<2>" LOCATE = SITE "P60" LEVEL 1;
+COMP "DipSW<3>" LOCATE = SITE "P59" LEVEL 1;
+COMP "DipSW<4>" LOCATE = SITE "P56" LEVEL 1;
+COMP "DipSW<5>" LOCATE = SITE "P55" LEVEL 1;
+COMP "DipSW<6>" LOCATE = SITE "P53" LEVEL 1;
+COMP "DipSW<7>" LOCATE = SITE "P52" LEVEL 1;
+COMP "SysClk" LOCATE = SITE "P127" LEVEL 1;
+COMP "RX" LOCATE = SITE "P132" LEVEL 1;
+COMP "TX" LOCATE = SITE "P131" LEVEL 1;
+SCHEMATIC END;
+

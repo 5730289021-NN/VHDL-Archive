@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/SusS/scroll.xst" -ofn "C:/Users/noraw/Documents/VHDL/SusS/scroll.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 scroll.ngc scroll.ngd  

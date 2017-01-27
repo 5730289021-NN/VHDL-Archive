@@ -1,0 +1,5 @@
+# begin LFP file C:\workspace\PRO\PRO.lfp
+designfile PRO.vhd
+parttype xc3s200-4-tq144
+bus_delimiter 8;
+set_busdelim_onsave 1;

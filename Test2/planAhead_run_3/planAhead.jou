@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Nov 19 23:56:26 2016
+# Process ID: 7104
+# Log file: C:/Users/noraw/Documents/VHDL/Test2/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/Test2/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/Test2/pa.fromNetlist.tcl

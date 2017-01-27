@@ -1,0 +1,445 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: writeaeng.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "writeaeng.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "writeaeng"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : writeaeng
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/Nampu/dcm133.vhd" in Library work.
+Entity <dcm133> compiled.
+Entity <dcm133> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/Nampu/nampu.vhd" in Library work.
+Architecture behavioral of Entity writeaeng is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <writeaeng> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dcm133> in library <work> (architecture <BEHAVIORAL>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <writeaeng> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/Nampu/nampu.vhd" line 62: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm133'.
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/Nampu/nampu.vhd" line 62: Unconnected output port 'CLK0_OUT' of component 'dcm133'.
+WARNING:Xst:819 - "C:/Users/noraw/Documents/VHDL/Nampu/nampu.vhd" line 75: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <state0>, <BRsig>
+INFO:Xst:2679 - Register <startbit> in unit <writeaeng> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <stopbit> in unit <writeaeng> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <writeaeng> analyzed. Unit <writeaeng> generated.
+
+Analyzing Entity <dcm133> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_MULTIPLY =  16" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_PERIOD =  40.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "FACTORY_JF =  8080" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+Entity <dcm133> analyzed. Unit <dcm133> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <dcm133>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/Nampu/dcm133.vhd".
+Unit <dcm133> synthesized.
+
+
+Synthesizing Unit <writeaeng>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/Nampu/nampu.vhd".
+WARNING:Xst:653 - Signal <rstin> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <locked> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fromkeyboard> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 2-bit latch for signal <state0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 18-bit latch for signal <waitsec>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 9-bit latch for signal <BRsig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <state0>.
+    Using one-hot encoding for signal <state>.
+    Using one-hot encoding for signal <BRsig>.
+    Found 8x1-bit ROM for signal <fromkeyboard$mux0000> created at line 125.
+    Found 8-bit register for signal <keybit>.
+    Found 32-bit up counter for signal <count1>.
+    Found 32-bit comparator greatequal for signal <count1$cmp_ge0000> created at line 106.
+    Found 32-bit up counter for signal <count2>.
+    Found 32-bit comparator greatequal for signal <count2$cmp_ge0000> created at line 121.
+    Found 32-bit up counter for signal <count3>.
+    Found 32-bit comparator greatequal for signal <count3$cmp_ge0000> created at line 141.
+    Found 32-bit up counter for signal <i>.
+    Found 32-bit comparator greatequal for signal <i$cmp_ge0000> created at line 124.
+    Found 32-bit up counter for signal <j>.
+    Found 32-bit comparator less for signal <keybit_0$cmp_lt0000> created at line 121.
+    Found 3-bit register for signal <state>.
+    Found 32-bit comparator less for signal <state$cmp_lt0000> created at line 124.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   5 Counter(s).
+	inferred  11 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <writeaeng> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x1-bit ROM                                           : 1
+# Counters                                             : 3
+ 32-bit up counter                                     : 3
+# Registers                                            : 9
+ 1-bit register                                        : 8
+ 3-bit register                                        : 1
+# Latches                                              : 3
+ 18-bit latch                                          : 1
+ 2-bit latch                                           : 1
+ 9-bit latch                                           : 1
+# Comparators                                          : 4
+ 32-bit comparator greatequal                          : 2
+ 32-bit comparator less                                : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1426 - The value init of the FF/Latch 0 hinder the constant cleaning in the block 0.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <state_1> has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_2> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_0> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_1> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_3> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_4> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_5> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_6> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_7> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <state_0> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <state_2> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <0>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <1>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <2>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <3>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <4>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <5>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <6>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <7>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <8>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <9>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <10>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <11>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <12>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <7>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <13>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <5>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <6>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <14>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <4>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <15>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <2>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <16>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <1>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <0> is unconnected in block <17>.
+WARNING:Xst:2677 - Node <state_0> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <state_2> of sequential type is unconnected in block <writeaeng>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x1-bit ROM                                           : 1
+# Counters                                             : 3
+ 32-bit up counter                                     : 3
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+# Latches                                              : 3
+ 18-bit latch                                          : 1
+ 2-bit latch                                           : 1
+ 9-bit latch                                           : 1
+# Comparators                                          : 4
+ 32-bit comparator greatequal                          : 2
+ 32-bit comparator less                                : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <state_1> has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_0> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_3> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_1> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_2> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_4> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_5> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_6> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <keybit_7> (without init value) has a constant value of 0 in block <writeaeng>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <13> in Unit <LPM_LATCH_4> is equivalent to the following FF/Latch, which will be removed : <3> 
+WARNING:Xst:1426 - The value init of the FF/Latch 0 hinder the constant cleaning in the block LPM_LATCH_23.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <3> has a constant value of 0 in block <LPM_LATCH_23>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1426 - The value init of the FF/Latch state0_0 hinder the constant cleaning in the block writeaeng.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:2677 - Node <state0_1> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <state0_0> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_0> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_1> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_2> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_4> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_5> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_6> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_7> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <BRsig_8> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_0> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_1> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_2> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_4> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_5> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_6> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_7> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_8> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_9> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_10> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_11> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_12> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_13> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_14> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_15> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_16> of sequential type is unconnected in block <writeaeng>.
+WARNING:Xst:2677 - Node <waitsec_17> of sequential type is unconnected in block <writeaeng>.
+
+Optimizing unit <writeaeng> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block writeaeng, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : writeaeng.ngr
+Top Level Output File Name         : writeaeng
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 11
+#      IBUFG                       : 1
+#      OBUF                        : 10
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                        0  out of   1920     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  11  out of     97    11%  
+ Number of GCLKs:                         2  out of      8    25%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.34 secs
+ 
+--> 
+
+Total memory usage is 323056 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   87 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

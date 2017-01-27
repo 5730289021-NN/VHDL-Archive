@@ -1,0 +1,32 @@
+V3 20
+FL C:/Users/noraw/Documents/VHDL/PRO/bin.vhd 2016/12/07.13:43:29 P.20131013
+EN work/bin2bcd_12bit 1481101460 FL C:/Users/noraw/Documents/VHDL/PRO/bin.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/bin2bcd_12bit/Behavioral 1481101461 \
+      FL C:/Users/noraw/Documents/VHDL/PRO/bin.vhd EN work/bin2bcd_12bit 1481101460
+FL C:/Users/noraw/Documents/VHDL/PRO/clk.vhd 2016/12/07.13:44:09 P.20131013
+EN work/CNTGEN 1481101462 FL C:/Users/noraw/Documents/VHDL/PRO/clk.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CNTGEN/Behavioral 1481101463 \
+      FL C:/Users/noraw/Documents/VHDL/PRO/clk.vhd EN work/CNTGEN 1481101462
+FL C:/Users/noraw/Documents/VHDL/PRO/CLOCK.vhd 2016/12/07.12:15:56 P.20131013
+FL C:/Users/noraw/Documents/VHDL/PRO/dcd.vhd 2016/12/07.13:45:20 P.20131013
+EN work/decoder 1481101464 FL C:/Users/noraw/Documents/VHDL/PRO/dcd.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder/Behavioral 1481101465 \
+      FL C:/Users/noraw/Documents/VHDL/PRO/dcd.vhd EN work/decoder 1481101464
+FL C:/Users/noraw/Documents/VHDL/PRO/PRO.vhd 2016/12/07.16:04:17 P.20131013
+EN work/PRO 1481101468 FL C:/Users/noraw/Documents/VHDL/PRO/PRO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/PRO/Behavioral 1481101469 \
+      FL C:/Users/noraw/Documents/VHDL/PRO/PRO.vhd EN work/PRO 1481101468 \
+      CP bin2bcd_12bit CP CNTGEN CP decoder CP sevenseg
+FL C:/Users/noraw/Documents/VHDL/PRO/seg.vhd 2016/12/07.13:46:03 P.20131013
+EN work/sevenseg 1481101466 FL C:/Users/noraw/Documents/VHDL/PRO/seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sevenseg/Behavioral 1481101467 \
+      FL C:/Users/noraw/Documents/VHDL/PRO/seg.vhd EN work/sevenseg 1481101466

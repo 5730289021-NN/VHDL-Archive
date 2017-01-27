@@ -1,0 +1,19 @@
+AR uart_totalbit_decoder behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd" sub00/vhpl10 1484714352
+EN uart_amountdatabit_decoder NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd" sub00/vhpl00 1484714347
+AR rxmodule behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd" sub00/vhpl16 1484714358
+AR dcm133 behavioral C:/Users/noraw/Documents/VHDL/MiniDesignChallenge/dcm133.vhd sub00/vhpl07 1484233320
+EN uart_totalbit_decoder NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd" sub00/vhpl09 1484714351
+AR uart_buffer behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd" sub00/vhpl18 1484714356
+AR uart_parityenb_decoder behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd" sub00/vhpl12 1484714350
+AR uart_amountdatabit_decoder behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd" sub00/vhpl01 1484714348
+MO dcm133 NULL dcm133.v vlg1B/dcm133.bin 1484714346
+EN uart_buffer NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd" sub00/vhpl17 1484714355
+EN txmodule NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd" sub00/vhpl13 1484714353
+EN uart_parityenb NULL C:/Users/noraw/Documents/VHDL/MiniDesignChallenge/UART_ParityEnb.vhd sub00/vhpl08 1484149343
+AR uart_clkperbit_decoder behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd" sub00/vhpl03 1484714346
+AR mainmodule behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd" sub00/vhpl05 1484714360
+AR txmodule behavioral "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd" sub00/vhpl14 1484714354
+EN uart_clkperbit_decoder NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd" sub00/vhpl02 1484714345
+EN uart_parityenb_decoder NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd" sub00/vhpl11 1484714349
+EN mainmodule NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd" sub00/vhpl04 1484714359
+EN rxmodule NULL "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd" sub00/vhpl15 1484714357

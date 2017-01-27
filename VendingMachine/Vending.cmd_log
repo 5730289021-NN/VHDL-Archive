@@ -1,0 +1,195 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.xst" -ofn "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Vending.ucf -p xc3s200-tq144-4 Vending.ngc Vending.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Vending_map.ncd Vending.ngd Vending.pcf 
+par -w -intstyle ise -ol high -t 1 Vending_map.ncd Vending.ncd Vending.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Vending.twx Vending.ncd -o Vending.twr Vending.pcf -ucf Vending.ucf 
+bitgen -intstyle ise -f Vending.ut Vending.ncd 

@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jan 13 16:22:43 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SysRstB" LOCATE = SITE "P44" LEVEL 1;
+COMP "reset" LOCATE = SITE "P46" LEVEL 1;
+COMP "SysClk" LOCATE = SITE "P127" LEVEL 1;
+COMP "dout" LOCATE = SITE "P131" LEVEL 1;
+COMP "dsw<0>" LOCATE = SITE "P60" LEVEL 1;
+COMP "dsw<1>" LOCATE = SITE "P63" LEVEL 1;
+COMP "dsw<2>" LOCATE = SITE "P68" LEVEL 1;
+SCHEMATIC END;
+

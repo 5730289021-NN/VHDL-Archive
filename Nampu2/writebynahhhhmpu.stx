@@ -1,0 +1,36 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/noraw/Documents/VHDL/Nampu2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/noraw/Documents/VHDL/Nampu2/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.vhd" in Library work.
+Architecture behavioral of Entity dcm133 is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd" in Library work.
+Architecture behavioral of Entity writebynahhhhmpu is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> 
+
+Total memory usage is 286664 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

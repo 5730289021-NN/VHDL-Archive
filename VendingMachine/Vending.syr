@@ -1,0 +1,506 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Vending.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Vending.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Vending"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : Vending
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd" in Library work.
+Architecture behavioral of Entity sevensegment is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd" in Library work.
+Architecture behavioral of Entity vending is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Vending> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SevenSegment> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Vending> in library <work> (Architecture <behavioral>).
+Entity <Vending> analyzed. Unit <Vending> generated.
+
+Analyzing Entity <SevenSegment> in library <work> (Architecture <behavioral>).
+Entity <SevenSegment> analyzed. Unit <SevenSegment> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SevenSegment>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd".
+    Found 16x7-bit ROM for signal <Segments$mux0001> created at line 67.
+    Found 7-bit register for signal <Segments>.
+    Found 4-bit register for signal <Digits>.
+    Found 32-bit up counter for signal <CountSegment>.
+    Found 32-bit adder for signal <CountSegment$addsub0000> created at line 50.
+    Found 4-bit register for signal <CurrentData>.
+    Found 32-bit register for signal <SegmentState>.
+    Found 32-bit adder for signal <SegmentState$addsub0000> created at line 54.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  47 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <SevenSegment> synthesized.
+
+
+Synthesizing Unit <Vending>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd".
+    Found 32-bit up counter for signal <ButtonTimeCount>.
+    Found 32-bit comparator greatequal for signal <ButtonTimeCount$cmp_ge0000> created at line 77.
+    Found 4-bit register for signal <Data<7:4>>.
+    Found 1-bit register for signal <DispensedBuffer>.
+    Found 32-bit comparator greater for signal <DispensedBuffer$cmp_gt0000> created at line 85.
+    Found 32-bit comparator less for signal <DispensedBuffer$cmp_lt0000> created at line 77.
+    Found 32-bit up counter for signal <DispensedTimeCount>.
+    Found 32-bit register for signal <Money>.
+    Found 32-bit adder for signal <Money$add0000> created at line 76.
+    Found 32-bit adder for signal <Money$add0001> created at line 91.
+    Found 32-bit subtractor for signal <Money$addsub0000> created at line 83.
+    Found 32-bit 4-to-1 multiplexer for signal <Money$mux0001> created at line 82.
+    Found 32-bit 8-to-1 multiplexer for signal <Money$mux0002> created at line 90.
+    Found 32-bit 4-to-1 multiplexer for signal <Money$mux0003>.
+    Found 32-bit subtractor for signal <Money$sub0000> created at line 80.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred  96 Multiplexer(s).
+Unit <Vending> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 4
+ 32-bit subtractor                                     : 2
+# Counters                                             : 3
+ 32-bit up counter                                     : 3
+# Registers                                            : 10
+ 1-bit register                                        : 5
+ 32-bit register                                       : 2
+ 4-bit register                                        : 2
+ 7-bit register                                        : 1
+# Comparators                                          : 3
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator less                                : 1
+# Multiplexers                                         : 3
+ 32-bit 4-to-1 multiplexer                             : 2
+ 32-bit 8-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <SevenSegment>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_Segments_mux0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <SevenSegment> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 4
+ 32-bit subtractor                                     : 2
+# Counters                                             : 3
+ 32-bit up counter                                     : 3
+# Registers                                            : 84
+ Flip-Flops                                            : 84
+# Comparators                                          : 3
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator less                                : 1
+# Multiplexers                                         : 3
+ 32-bit 4-to-1 multiplexer                             : 2
+ 32-bit 8-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Vending> ...
+
+Optimizing unit <SevenSegment> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Vending, actual ratio is 15.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 180
+ Flip-Flops                                            : 180
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Vending.ngr
+Top Level Output File Name         : Vending
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 1067
+#      GND                         : 1
+#      INV                         : 44
+#      LUT1                        : 222
+#      LUT2                        : 5
+#      LUT3                        : 66
+#      LUT3_D                      : 32
+#      LUT4                        : 88
+#      MUXCY                       : 325
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 282
+# FlipFlops/Latches                : 180
+#      FD                          : 4
+#      FDE                         : 80
+#      FDR                         : 64
+#      FDRE                        : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 2
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                      288  out of   1920    15%  
+ Number of Slice Flip Flops:            180  out of   3840     4%  
+ Number of 4 input LUTs:                457  out of   3840    11%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of     97    15%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clock                              | BUFGP                  | 180   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 15.266ns (Maximum Frequency: 65.505MHz)
+   Minimum input arrival time before clock: 13.586ns
+   Maximum output required time after clock: 8.229ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 15.266ns (frequency: 65.505MHz)
+  Total number of paths / destination ports: 165958 / 388
+-------------------------------------------------------------------------
+Delay:               15.266ns (Levels of Logic = 37)
+  Source:            Money_0 (FF)
+  Destination:       DispensedBuffer (FF)
+  Source Clock:      Clock rising
+  Destination Clock: Clock rising
+
+  Data Path: Money_0 to DispensedBuffer
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.720   1.256  Money_0 (Money_0)
+     LUT1:I0->O            1   0.551   0.000  Msub_Money_sub0000_cy<0>_rt (Msub_Money_sub0000_cy<0>_rt)
+     MUXCY:S->O            1   0.500   0.000  Msub_Money_sub0000_cy<0> (Msub_Money_sub0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<1> (Msub_Money_sub0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<2> (Msub_Money_sub0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<3> (Msub_Money_sub0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<4> (Msub_Money_sub0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<5> (Msub_Money_sub0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<6> (Msub_Money_sub0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<7> (Msub_Money_sub0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<8> (Msub_Money_sub0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<9> (Msub_Money_sub0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<10> (Msub_Money_sub0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<11> (Msub_Money_sub0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<12> (Msub_Money_sub0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<13> (Msub_Money_sub0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<14> (Msub_Money_sub0000_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<15> (Msub_Money_sub0000_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<16> (Msub_Money_sub0000_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<17> (Msub_Money_sub0000_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<18> (Msub_Money_sub0000_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<19> (Msub_Money_sub0000_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<20> (Msub_Money_sub0000_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<21> (Msub_Money_sub0000_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<22> (Msub_Money_sub0000_cy<22>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<23> (Msub_Money_sub0000_cy<23>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<24> (Msub_Money_sub0000_cy<24>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<25> (Msub_Money_sub0000_cy<25>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_sub0000_cy<26> (Msub_Money_sub0000_cy<26>)
+     XORCY:CI->O           2   0.904   0.945  Msub_Money_sub0000_xor<27> (Money_sub0000<27>)
+     LUT3:I2->O            1   0.551   0.000  Msub_Money_addsub0000_lut<27> (Msub_Money_addsub0000_lut<27>)
+     MUXCY:S->O            1   0.500   0.000  Msub_Money_addsub0000_cy<27> (Msub_Money_addsub0000_cy<27>)
+     XORCY:CI->O           2   0.904   1.216  Msub_Money_addsub0000_xor<28> (Money_addsub0000<28>)
+     LUT2:I0->O            1   0.551   0.827  Mcompar_DispensedBuffer_cmp_gt0000_lut<7>_SW0 (N6)
+     LUT4:I3->O            1   0.551   0.000  Mcompar_DispensedBuffer_cmp_gt0000_lut<7> (Mcompar_DispensedBuffer_cmp_gt0000_lut<7>)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_DispensedBuffer_cmp_gt0000_cy<7> (Mcompar_DispensedBuffer_cmp_gt0000_cy<7>)
+     MUXCY:CI->O           1   0.303   0.869  Mcompar_DispensedBuffer_cmp_gt0000_cy<8> (Mcompar_DispensedBuffer_cmp_gt0000_cy<8>)
+     LUT3:I2->O            1   0.551   0.801  DispensedBuffer_not00011 (DispensedBuffer_not0001)
+     FDE:CE                    0.602          DispensedBuffer
+    ----------------------------------------
+    Total                     15.266ns (9.352ns logic, 5.914ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 1162 / 37
+-------------------------------------------------------------------------
+Offset:              13.586ns (Levels of Logic = 35)
+  Source:            Baht10 (PAD)
+  Destination:       DispensedBuffer (FF)
+  Destination Clock: Clock rising
+
+  Data Path: Baht10 to DispensedBuffer
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   0.821   2.375  Baht10_IBUF (Baht10_IBUF)
+     LUT3:I0->O            1   0.551   0.000  Mmux_Money_mux00012311 (Mmux_Money_mux0001231)
+     MUXCY:S->O            1   0.500   0.000  Msub_Money_addsub0000_cy<1> (Msub_Money_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<2> (Msub_Money_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<3> (Msub_Money_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<4> (Msub_Money_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<5> (Msub_Money_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<6> (Msub_Money_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<7> (Msub_Money_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<8> (Msub_Money_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<9> (Msub_Money_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<10> (Msub_Money_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<11> (Msub_Money_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<12> (Msub_Money_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<13> (Msub_Money_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<14> (Msub_Money_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<15> (Msub_Money_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<16> (Msub_Money_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<17> (Msub_Money_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<18> (Msub_Money_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<19> (Msub_Money_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<20> (Msub_Money_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<21> (Msub_Money_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<22> (Msub_Money_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<23> (Msub_Money_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<24> (Msub_Money_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<25> (Msub_Money_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<26> (Msub_Money_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.064   0.000  Msub_Money_addsub0000_cy<27> (Msub_Money_addsub0000_cy<27>)
+     XORCY:CI->O           2   0.904   1.216  Msub_Money_addsub0000_xor<28> (Money_addsub0000<28>)
+     LUT2:I0->O            1   0.551   0.827  Mcompar_DispensedBuffer_cmp_gt0000_lut<7>_SW0 (N6)
+     LUT4:I3->O            1   0.551   0.000  Mcompar_DispensedBuffer_cmp_gt0000_lut<7> (Mcompar_DispensedBuffer_cmp_gt0000_lut<7>)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_DispensedBuffer_cmp_gt0000_cy<7> (Mcompar_DispensedBuffer_cmp_gt0000_cy<7>)
+     MUXCY:CI->O           1   0.303   0.869  Mcompar_DispensedBuffer_cmp_gt0000_cy<8> (Mcompar_DispensedBuffer_cmp_gt0000_cy<8>)
+     LUT3:I2->O            1   0.551   0.801  DispensedBuffer_not00011 (DispensedBuffer_not0001)
+     FDE:CE                    0.602          DispensedBuffer
+    ----------------------------------------
+    Total                     13.586ns (7.498ns logic, 6.088ns route)
+                                       (55.2% logic, 44.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              8.229ns (Levels of Logic = 1)
+  Source:            DispensedBuffer (FF)
+  Destination:       Dispensed (PAD)
+  Source Clock:      Clock rising
+
+  Data Path: DispensedBuffer to Dispensed
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             34   0.720   1.865  DispensedBuffer (DispensedBuffer)
+     OBUF:I->O                 5.644          Dispensed_OBUF (Dispensed)
+    ----------------------------------------
+    Total                      8.229ns (6.364ns logic, 1.865ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.61 secs
+ 
+--> 
+
+Total memory usage is 305816 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

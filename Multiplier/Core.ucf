@@ -1,0 +1,30 @@
+
+
+NET "Digits[1]" LOC = P31;
+NET "Digits[2]" LOC = P33;
+NET "Digits[3]" LOC = P36;
+NET "Digits[4]" LOC = P41;
+NET "Dips[7]" LOC = P52;
+NET "Dips[6]" LOC = P53;
+NET "Dips[5]" LOC = P55;
+NET "Dips[4]" LOC = P56;
+NET "Dips[3]" LOC = P59;
+NET "Dips[2]" LOC = P60;
+NET "Dips[1]" LOC = P63;
+NET "Dips[0]" LOC = P68;
+NET "Segments[6]" LOC = P40;
+NET "Segments[5]" LOC = P35;
+NET "Segments[4]" LOC = P32;
+NET "Segments[3]" LOC = P30;
+NET "Segments[2]" LOC = P27;
+NET "Segments[1]" LOC = P25;
+NET "Segments[0]" LOC = P23;
+NET "Clock" LOC = P127;
+NET "ClrButton" LOC = P47;
+NET "MultiplyButton" LOC = P46;
+NET "SetButton" LOC = P44;
+
+# PlanAhead Generated physical constraints 
+
+NET "MinusButton" LOC = P51;
+NET "PlusButton" LOC = P50;

@@ -1,0 +1,57 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.xst" -ofn "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim writebynahhhhmpu.ngc writebynahhhhmpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc writebynahhhhmpu.ucf -p xc3s200-tq144-4 writebynahhhhmpu.ngc writebynahhhhmpu.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o writebynahhhhmpu_map.ncd writebynahhhhmpu.ngd writebynahhhhmpu.pcf 
+par -w -intstyle ise -ol high -t 1 writebynahhhhmpu_map.ncd writebynahhhhmpu.ncd writebynahhhhmpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml writebynahhhhmpu.twx writebynahhhhmpu.ncd -o writebynahhhhmpu.twr writebynahhhhmpu.pcf -ucf writebynahhhhmpu.ucf 
+bitgen -intstyle ise -f writebynahhhhmpu.ut writebynahhhhmpu.ncd 

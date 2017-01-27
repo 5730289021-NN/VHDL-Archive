@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jan 13 14:47:34 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ascii" LOCATE = SITE "P131" LEVEL 1;
+COMP "BRin<0>" LOCATE = SITE "P55" LEVEL 1;
+COMP "BRin<1>" LOCATE = SITE "P53" LEVEL 1;
+COMP "BRin<2>" LOCATE = SITE "P52" LEVEL 1;
+COMP "myinput<0>" LOCATE = SITE "P68" LEVEL 1;
+COMP "myinput<1>" LOCATE = SITE "P63" LEVEL 1;
+COMP "myinput<2>" LOCATE = SITE "P60" LEVEL 1;
+COMP "myinput<3>" LOCATE = SITE "P59" LEVEL 1;
+COMP "myinput<4>" LOCATE = SITE "P56" LEVEL 1;
+COMP "SysClk" LOCATE = SITE "P127" LEVEL 1;
+COMP "reset" LOCATE = SITE "P44" LEVEL 1;
+SCHEMATIC END;
+

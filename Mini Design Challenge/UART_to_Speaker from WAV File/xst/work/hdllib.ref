@@ -1,0 +1,12 @@
+AR rxmodule behavioral C:/Users/noraw/Documents/VHDL/UART_to_Speaker/RXModule.vhd sub00/vhpl07 1484790880
+AR main behavioral C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.vhd sub00/vhpl11 1484790884
+AR dcm133 behavioral C:/Users/noraw/Documents/VHDL/UART_to_Speaker/dcm133.vhd sub00/vhpl01 1484790874
+EN pwm NULL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/PWM.vhd sub00/vhpl08 1484790881
+AR uart_buffer behavioral C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_Buffer.vhd sub00/vhpl05 1484790878
+EN dcm133 NULL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/dcm133.vhd sub00/vhpl00 1484790873
+EN uart_buffer NULL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_Buffer.vhd sub00/vhpl04 1484790877
+EN main NULL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.vhd sub00/vhpl10 1484790883
+AR pwm behavioral C:/Users/noraw/Documents/VHDL/UART_to_Speaker/PWM.vhd sub00/vhpl09 1484790882
+AR uart_clkperbit_decoder behavioral C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_ClkPerBit_Decoder.vhd sub00/vhpl03 1484790876
+EN uart_clkperbit_decoder NULL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_ClkPerBit_Decoder.vhd sub00/vhpl02 1484790875
+EN rxmodule NULL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/RXModule.vhd sub00/vhpl06 1484790879

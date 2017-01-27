@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Dec 07 09:36:11 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "osc" LOCATE = SITE "P127" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P70" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P77" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P69" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P76" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "P74" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "P79" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P73" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P78" LEVEL 1;
+COMP "buzzer" LOCATE = SITE "P125" LEVEL 1;
+NET "osc_BUFGP/IBUFG" BEL "osc_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

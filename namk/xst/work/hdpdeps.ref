@@ -1,0 +1,8 @@
+V3 4
+FL C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd 2017/01/13.16:59:04 P.20131013
+EN work/LEDs_PWM 1484301715 FL C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LEDs_PWM/Behavioral 1484301716 \
+      FL C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.vhd EN work/LEDs_PWM 1484301715 \
+      CP dcm133

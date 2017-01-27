@@ -1,0 +1,91 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s400-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s400-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/Note/Note.xst" -ofn "C:/Users/noraw/Documents/VHDL/Note/Note.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Note.ucf -p xc3s200-tq144-4 Note.ngc Note.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Note_map.ncd Note.ngd Note.pcf 
+par -w -intstyle ise -ol high -t 1 Note_map.ncd Note.ncd Note.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Note.twx Note.ncd -o Note.twr Note.pcf -ucf Note.ucf 
+bitgen -intstyle ise -f Note.ut Note.ncd 

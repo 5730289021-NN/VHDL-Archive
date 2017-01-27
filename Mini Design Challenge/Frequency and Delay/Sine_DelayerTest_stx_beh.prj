@@ -1,0 +1,2 @@
+vhdl isim_temp "Sine_Delayer.vhd"
+vhdl isim_temp "Sine_DelayerTest.vhd"

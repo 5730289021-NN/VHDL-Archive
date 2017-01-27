@@ -1,0 +1,15 @@
+V3 11
+FL C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.vhd 2016/12/14.17:50:40 P.20131013
+EN work/dcm133 1484293640 FL C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dcm133/BEHAVIORAL 1484293641 \
+      FL C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.vhd EN work/dcm133 1484293640 \
+      CP BUFG CP IBUFG CP DCM
+FL C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd 2017/01/13.14:47:05 P.20131013
+EN work/writebynahhhhmpu 1484293642 \
+      FL C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/writebynahhhhmpu/Behavioral 1484293643 \
+      FL C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd \
+      EN work/writebynahhhhmpu 1484293642 CP dcm133

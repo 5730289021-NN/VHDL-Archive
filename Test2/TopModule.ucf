@@ -1,0 +1,16 @@
+
+NET "DGs[3]" LOC = P41;
+NET "DGs[2]" LOC = P36;
+NET "DGs[1]" LOC = P33;
+NET "DGs[0]" LOC = P31;
+NET "Segments[6]" LOC = P40;
+NET "Segments[5]" LOC = P35;
+NET "Segments[4]" LOC = P32;
+NET "Segments[3]" LOC = P30;
+NET "Segments[2]" LOC = P27;
+NET "Segments[1]" LOC = P25;
+NET "Segments[0]" LOC = P23;
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = P127;

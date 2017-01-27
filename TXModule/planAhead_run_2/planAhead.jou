@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Dec 29 22:47:49 2016
+# Process ID: 10996
+# Log file: C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P78 [get_ports LED1]
+endgroup
+startgroup
+set_property package_pin P73 [get_ports LED2]
+endgroup
+save_constraints
+refresh_design

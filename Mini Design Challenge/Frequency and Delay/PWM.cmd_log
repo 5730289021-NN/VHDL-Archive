@@ -1,0 +1,68 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM.ucf -p xc3s200-tq144-4 PWM.ngc PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf PWM.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/PWM/PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.xst" -ofn "C:/Users/Oak/Documents/Xilinx ISE Workspace/PWM/PWM.syr" 

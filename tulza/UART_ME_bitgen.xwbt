@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\noraw\Documents\VHDL\tulza\UART_ME.ncd
+OUTFILE=C:\Users\noraw\Documents\VHDL\tulza\UART_ME.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=C:\Users\noraw\Documents\VHDL\tulza
+LICENSE=WebPack
+USER_INFO=211176972_0_0_656

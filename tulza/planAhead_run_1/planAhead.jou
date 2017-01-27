@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Jan 13 15:00:00 2017
+# Process ID: 12504
+# Log file: C:/Users/noraw/Documents/VHDL/tulza/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/tulza/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/tulza/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+startgroup
+set_property package_pin P68 [get_ports {dsw[2]}]
+endgroup
+startgroup
+set_property package_pin P63 [get_ports {dsw[1]}]
+endgroup
+startgroup
+set_property package_pin P60 [get_ports {dsw[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  reset]]
+startgroup
+set_property package_pin P44 [get_ports SysRstB]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports SysClk]
+endgroup

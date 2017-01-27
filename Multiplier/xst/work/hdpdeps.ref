@@ -1,0 +1,14 @@
+V3 7
+FL C:/Users/noraw/Documents/VHDL/Multiplier/Core.vhd 2016/12/07.13:26:26 P.20131013
+EN work/Core 1481092026 FL C:/Users/noraw/Documents/VHDL/Multiplier/Core.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Core/Behavioral 1481092027 \
+      FL C:/Users/noraw/Documents/VHDL/Multiplier/Core.vhd EN work/Core 1481092026 \
+      CP SevenSegment
+FL C:/Users/noraw/Documents/VHDL/Multiplier/SevenSegment.vhd 2016/12/07.11:33:38 P.20131013
+EN work/SevenSegment 1481092024 \
+      FL C:/Users/noraw/Documents/VHDL/Multiplier/SevenSegment.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SevenSegment/Behavioral 1481092025 \
+      FL C:/Users/noraw/Documents/VHDL/Multiplier/SevenSegment.vhd \
+      EN work/SevenSegment 1481092024

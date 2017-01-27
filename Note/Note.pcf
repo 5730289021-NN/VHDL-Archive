@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Dec 02 14:08:17 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "a" LOCATE = SITE "P70" LEVEL 1;
+COMP "osc" LOCATE = SITE "P127" LEVEL 1;
+COMP "buzzer" LOCATE = SITE "P125" LEVEL 1;
+NET "osc_BUFGP/IBUFG" BEL "osc_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

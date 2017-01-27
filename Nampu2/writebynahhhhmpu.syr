@@ -1,0 +1,489 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: writebynahhhhmpu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "writebynahhhhmpu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "writebynahhhhmpu"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : writebynahhhhmpu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.vhd" in Library work.
+Architecture behavioral of Entity dcm133 is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd" in Library work.
+Entity <writebynahhhhmpu> compiled.
+Entity <writebynahhhhmpu> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <writebynahhhhmpu> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dcm133> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <writebynahhhhmpu> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd" line 72: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm133'.
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd" line 72: Unconnected output port 'CLK0_OUT' of component 'dcm133'.
+Entity <writebynahhhhmpu> analyzed. Unit <writebynahhhhmpu> generated.
+
+Analyzing Entity <dcm133> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_MULTIPLY =  16" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_PERIOD =  40.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "FACTORY_JF =  8080" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+Entity <dcm133> analyzed. Unit <dcm133> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <dcm133>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.vhd".
+Unit <dcm133> synthesized.
+
+
+Synthesizing Unit <writebynahhhhmpu>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/Nampu2/writebynahhhhmpu.vhd".
+WARNING:Xst:653 - Signal <rstin> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <locked> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 20                                             |
+    | Inputs             | 1                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000                                          |
+    | Power Up State     | 00000                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8x15-bit ROM for signal <period$mux0001> created at line 89.
+    Found 1-bit register for signal <ascii>.
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit comparator greatequal for signal <count$cmp_ge0000> created at line 112.
+    Found 8-bit register for signal <info>.
+    Found 15-bit register for signal <period>.
+    Found 1-bit register for signal <work<31>>.
+    Found 32-bit comparator less for signal <work_0$cmp_lt0000> created at line 112.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <writebynahhhhmpu> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x15-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 15-bit register                                       : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:10]> with one-hot encoding.
+---------------------
+ State | Encoding
+---------------------
+ 00000 | 0000000001
+ 00001 | 0000000010
+ 00010 | 0000000100
+ 00011 | 0000001000
+ 00100 | 0000010000
+ 00101 | 0000100000
+ 00110 | 0001000000
+ 00111 | 0010000000
+ 01000 | 0100000000
+ 01001 | 1000000000
+---------------------
+WARNING:Xst:1710 - FF/Latch <info_0> (without init value) has a constant value of 0 in block <writebynahhhhmpu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <info_6> (without init value) has a constant value of 1 in block <writebynahhhhmpu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <info_7> (without init value) has a constant value of 0 in block <writebynahhhhmpu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <info<7:7>> (without init value) have a constant value of 0 in block <writebynahhhhmpu>.
+
+Synthesizing (advanced) Unit <writebynahhhhmpu>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_period_mux0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <writebynahhhhmpu> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 8x15-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+# Comparators                                          : 2
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <info_0> (without init value) has a constant value of 0 in block <writebynahhhhmpu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <info_6> (without init value) has a constant value of 1 in block <writebynahhhhmpu>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <info_1> in Unit <writebynahhhhmpu> is equivalent to the following 2 FFs/Latches, which will be removed : <info_2> <info_3> 
+INFO:Xst:2261 - The FF/Latch <info_4> in Unit <writebynahhhhmpu> is equivalent to the following FF/Latch, which will be removed : <info_5> 
+INFO:Xst:2261 - The FF/Latch <period_5> in Unit <writebynahhhhmpu> is equivalent to the following FF/Latch, which will be removed : <period_14> 
+
+Optimizing unit <writebynahhhhmpu> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block writebynahhhhmpu, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 58
+ Flip-Flops                                            : 58
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : writebynahhhhmpu.ngr
+Top Level Output File Name         : writebynahhhhmpu
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 159
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 31
+#      LUT2                        : 21
+#      LUT3                        : 10
+#      LUT4                        : 9
+#      MUXCY                       : 51
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 58
+#      FD                          : 8
+#      FDE                         : 3
+#      FDR                         : 39
+#      FDRE                        : 7
+#      FDSE                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 11
+#      IBUF                        : 9
+#      IBUFG                       : 1
+#      OBUF                        : 1
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                       50  out of   1920     2%  
+ Number of Slice Flip Flops:             58  out of   3840     1%  
+ Number of 4 input LUTs:                 74  out of   3840     1%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of     97    11%  
+ Number of GCLKs:                         2  out of      8    25%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SysClk                             | u_dcm133/DCM_INST:CLKFX| 58    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 47.297ns (Maximum Frequency: 21.143MHz)
+   Minimum input arrival time before clock: 5.511ns
+   Maximum output required time after clock: 7.241ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SysClk'
+  Clock period: 47.297ns (frequency: 21.143MHz)
+  Total number of paths / destination ports: 2605 / 83
+-------------------------------------------------------------------------
+Delay:               8.868ns (Levels of Logic = 22)
+  Source:            period_0 (FF)
+  Destination:       count_0 (FF)
+  Source Clock:      SysClk rising 5.3X
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: period_0 to count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.720   1.140  period_0 (period_0)
+     LUT2:I0->O            1   0.551   0.000  Mcompar_count_cmp_ge0000_lut<0> (Mcompar_count_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_count_cmp_ge0000_cy<0> (Mcompar_count_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<1> (Mcompar_count_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<2> (Mcompar_count_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<3> (Mcompar_count_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<4> (Mcompar_count_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<5> (Mcompar_count_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<6> (Mcompar_count_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<7> (Mcompar_count_cmp_ge0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<8> (Mcompar_count_cmp_ge0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<9> (Mcompar_count_cmp_ge0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<10> (Mcompar_count_cmp_ge0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<11> (Mcompar_count_cmp_ge0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<12> (Mcompar_count_cmp_ge0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<13> (Mcompar_count_cmp_ge0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<14> (Mcompar_count_cmp_ge0000_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<15> (Mcompar_count_cmp_ge0000_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<16> (Mcompar_count_cmp_ge0000_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<17> (Mcompar_count_cmp_ge0000_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_ge0000_cy<18> (Mcompar_count_cmp_ge0000_cy<18>)
+     MUXCY:CI->O           2   0.303   1.072  Mcompar_count_cmp_ge0000_cy<19> (count_cmp_ge0000)
+     LUT2:I1->O           32   0.551   1.853  count_or00001 (count_or0000)
+     FDR:R                     1.026          count_0
+    ----------------------------------------
+    Total                      8.868ns (4.803ns logic, 4.065ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SysClk'
+  Total number of paths / destination ports: 92 / 65
+-------------------------------------------------------------------------
+Offset:              5.511ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       count_0 (FF)
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: reset to count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.821   1.260  reset_IBUF (reset_IBUF)
+     LUT2:I0->O           32   0.551   1.853  count_or00001 (count_or0000)
+     FDR:R                     1.026          count_0
+    ----------------------------------------
+    Total                      5.511ns (2.398ns logic, 3.113ns route)
+                                       (43.5% logic, 56.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SysClk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.241ns (Levels of Logic = 1)
+  Source:            ascii (FF)
+  Destination:       ascii (PAD)
+  Source Clock:      SysClk rising 5.3X
+
+  Data Path: ascii to ascii
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.720   0.877  ascii (ascii_OBUF)
+     OBUF:I->O                 5.644          ascii_OBUF (ascii)
+    ----------------------------------------
+    Total                      7.241ns (6.364ns logic, 0.877ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.91 secs
+ 
+--> 
+
+Total memory usage is 306920 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

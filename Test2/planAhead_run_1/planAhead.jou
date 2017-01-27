@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Nov 19 22:24:56 2016
+# Process ID: 5348
+# Log file: C:/Users/noraw/Documents/VHDL/Test2/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/Test2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/Test2/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P50 [get_ports {bcd[3]}]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports {bcd[2]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {bcd[1]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {bcd[0]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {DGs[3]}]
+endgroup
+startgroup
+set_property package_pin P36 [get_ports {DGs[2]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {DGs[1]}]
+endgroup
+startgroup
+set_property package_pin P31 [get_ports {DGs[0]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {Segments[4]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {Segments[3]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {Segments[2]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Segments[1]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {Segments[0]}]
+endgroup
+save_constraints

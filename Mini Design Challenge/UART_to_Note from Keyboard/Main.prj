@@ -1,0 +1,8 @@
+vhdl work "dcm133.vhd"
+vhdl work "UART_ClkPerBit_Decoder.vhd"
+vhdl work "UART_Buffer.vhd"
+vhdl work "Sine_ClkPerTickDecoder.vhd"
+vhdl work "SineGenerator.vhd"
+vhdl work "RXModule.vhd"
+vhdl work "PWM.vhd"
+vhdl work "Main.vhd"

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Nov 21 16:44:15 2016
+# Process ID: 2664
+# Log file: C:/Users/noraw/Documents/VHDL/Test2/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/Test2/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/Test2/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P127 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  Buzzer]]

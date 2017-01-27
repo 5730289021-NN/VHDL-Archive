@@ -1,0 +1,6 @@
+AR sevensegment behavioral C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd sub00/vhpl01 1481103171
+AR vending behavioral C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd sub00/vhpl05 1481103173
+EN vending NULL C:/Users/noraw/Documents/VHDL/VendingMachine/Vending.vhd sub00/vhpl04 1481103172
+EN sevensegment NULL C:/Users/noraw/Documents/VHDL/VendingMachine/SevenSegment.vhd sub00/vhpl00 1481103170
+AR oneshot behavioral C:/Users/noraw/Documents/VHDL/VendingMachine/OneShot.vhd sub00/vhpl03 1481047823
+EN oneshot NULL C:/Users/noraw/Documents/VHDL/VendingMachine/OneShot.vhd sub00/vhpl02 1481047822

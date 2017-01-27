@@ -1,0 +1,15 @@
+V3 11
+FL C:/Users/noraw/Documents/VHDL/tulza/dcm133.vhd 2016/12/14.17:50:14 P.20131013
+EN work/dcm133 1484299347 FL C:/Users/noraw/Documents/VHDL/tulza/dcm133.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dcm133/BEHAVIORAL 1484299348 \
+      FL C:/Users/noraw/Documents/VHDL/tulza/dcm133.vhd EN work/dcm133 1484299347 \
+      CP BUFG CP IBUFG CP DCM
+FL C:/Users/noraw/Documents/VHDL/tulza/UART_ME.vhd 2017/01/13.16:22:21 P.20131013
+EN work/UART_ME 1484299349 FL C:/Users/noraw/Documents/VHDL/tulza/UART_ME.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/UART_ME/Behavioral 1484299350 \
+      FL C:/Users/noraw/Documents/VHDL/tulza/UART_ME.vhd EN work/UART_ME 1484299349 \
+      CP dcm133

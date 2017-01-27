@@ -1,0 +1,15 @@
+
+
+NET "buzzer" LOC = P125;
+NET "osc" LOC = P127;
+
+# PlanAhead Generated physical constraints 
+
+NET "LED[7]" LOC = P78;
+NET "LED[6]" LOC = P73;
+NET "LED[4]" LOC = P74;
+NET "LED[5]" LOC = P79;
+NET "LED[3]" LOC = P76;
+NET "LED[2]" LOC = P69;
+NET "LED[1]" LOC = P77;
+NET "LED[0]" LOC = P70;

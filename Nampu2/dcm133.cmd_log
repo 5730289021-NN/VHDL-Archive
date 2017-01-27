@@ -1,0 +1,2 @@
+vhdtdtfi -lib work dcm133.vhd -prj Nampu2 -o dcm133.spl -module dcm133 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 dcm133.spl C:/Users/noraw/Documents/VHDL/Nampu2/dcm133.sym 

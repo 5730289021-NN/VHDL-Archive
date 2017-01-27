@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/noraw/Documents/VHDL/Nampu2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/noraw/Documents/VHDL/Nampu2/xst"
+elaborate
+-ifn writebynahhhhmpu.prj
+-ifmt mixed

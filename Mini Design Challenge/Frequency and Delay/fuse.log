@@ -1,0 +1,48 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/noraw/Documents/VHDL/PWM/LEDSineTest_isim_beh.exe -prj C:/Users/noraw/Documents/VHDL/PWM/LEDSineTest_beh.prj work.LEDSineTest 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/Sine_Delayer.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/PWM.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/Sine_DelayMaker.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/Sine_Compound.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/Sine_ClkPerTickDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/dcm133.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd" into library work
+Parsing VHDL file "C:/Users/noraw/Documents/VHDL/PWM/LEDSineTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_clock_divide_by_2_v of entity dcm_clock_divide_by_2 [dcm_clock_divide_by_2_default]
+Compiling architecture dcm_maximum_period_check_v of entity dcm_maximum_period_check [\dcm_maximum_period_check("CLKIN...]
+Compiling architecture dcm_maximum_period_check_v of entity dcm_maximum_period_check [\dcm_maximum_period_check("PSCLK...]
+Compiling architecture dcm_clock_lost_v of entity dcm_clock_lost [dcm_clock_lost_default]
+Compiling architecture dcm_v of entity DCM [\DCM(2.0,3,16,false,40.0,"NONE",...]
+Compiling architecture behavioral of entity dcm133 [dcm133_default]
+Compiling architecture behavioral of entity Sine_ClkPerTick_Decoder [sine_clkpertick_decoder_default]
+Compiling architecture behavioral of entity Sine_Delay_Decoder [sine_delay_decoder_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Sine_Delayer [sine_delayer_default]
+Compiling architecture behavioral of entity Sine_Generator [sine_generator_default]
+Compiling architecture behavioral of entity PWM [pwm_default]
+Compiling architecture behavioral of entity Sine_Compound [sine_compound_default]
+Compiling architecture behavioral of entity LEDSine [ledsine_default]
+Compiling architecture behavior of entity ledsinetest
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 41 VHDL Units
+Built simulation executable C:/Users/noraw/Documents/VHDL/PWM/LEDSineTest_isim_beh.exe
+Fuse Memory Usage: 60644 KB
+Fuse CPU Usage: 1218 ms

@@ -1,0 +1,3 @@
+vhdl work "TXModule.vhd"
+vhdl work "RXModule.vhd"
+vhdl work "RXModuleTest.vhd"

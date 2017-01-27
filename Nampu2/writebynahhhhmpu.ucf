@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "BRin[2]" LOC = P52;
+NET "BRin[1]" LOC = P53;
+NET "BRin[0]" LOC = P55;
+NET "myinput[4]" LOC = P56;
+NET "myinput[3]" LOC = P59;
+NET "myinput[2]" LOC = P60;
+NET "myinput[1]" LOC = P63;
+NET "ascii" LOC = P131;
+NET "myinput[0]" LOC = P68;
+NET "reset" LOC = P44;
+NET "SysClk" LOC = P127;

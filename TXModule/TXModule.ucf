@@ -1,0 +1,19 @@
+
+
+NET "DipSW[7]" LOC = P52;
+NET "DipSW[6]" LOC = P53;
+NET "DipSW[5]" LOC = P55;
+NET "DipSW[4]" LOC = P56;
+NET "DipSW[3]" LOC = P59;
+NET "DipSW[2]" LOC = P60;
+NET "DipSW[1]" LOC = P63;
+NET "DipSW[0]" LOC = P68;
+NET "SendB" LOC = P44;
+NET "SysClk" LOC = P127;
+NET "SysRstB" LOC = P46;
+NET "TX" LOC = P131;
+
+# PlanAhead Generated physical constraints 
+
+NET "LED1" LOC = P78;
+NET "LED2" LOC = P73;

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Jan 18 10:51:06 2017
+# Process ID: 11744
+# Log file: C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/pa.fromNetlist.tcl}
+# create_project -name MiniDesignChallenge -dir "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/planAhead_run_2" -part xc3s200tq144-4
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/planAhead_run_2/MiniDesignChallenge.ppr
+     C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/planAhead_run_2/MiniDesignChallenge.data
+
+    while executing
+"create_project -name MiniDesignChallenge -dir "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/planAhead_run_2" -part xc3s200tq144-4"
+    (file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/pa.fromNetlist.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Wed Jan 18 10:54:15 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

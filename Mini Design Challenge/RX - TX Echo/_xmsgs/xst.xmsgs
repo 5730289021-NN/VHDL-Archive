@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MainModule</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/MainModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MainModule/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/MainModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RXModule</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/RXModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RXModule/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/RXModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/TXModule</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/TXModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/TXModule/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/TXModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_AmountDataBit_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_AmountDataBit_Decoder/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_Buffer</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_Buffer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_Buffer/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_Buffer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_ClkPerBit_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_ClkPerBit_Decoder/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_ParityEnb_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_ParityEnb.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_ParityEnb_Decoder/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_ParityEnb.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_TotalBit_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_TotalBit_Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/UART_TotalBit_Decoder/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/MiniDesignChallenge/UART_TotalBit_Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd</arg>&quot; line <arg fmt="%d" index="2">144</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd</arg>&quot; line <arg fmt="%d" index="2">144</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DipSW&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_AmountDataBit_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_UART_AmountDataBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_AmountDataBit_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_UART_ClkPerBit_mux0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_AmountDataBit_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_AmountDataBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_AmountDataBit_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">UART_ClkPerBit_Decoder</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+</messages>
+

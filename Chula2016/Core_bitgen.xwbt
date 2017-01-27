@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\noraw\Documents\VHDL\Chula2016\Core.ncd
+OUTFILE=C:\Users\noraw\Documents\VHDL\Chula2016\Core.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=C:\Users\noraw\Documents\VHDL\Chula2016
+LICENSE=WebPack
+USER_INFO=211176972_0_0_656

@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml RXModule.twx RXModule.ncd -o RXModule.twr RXModule.pcf
+
+Design file:              RXModule.ncd
+Physical constraint file: RXModule.pcf
+Device,package,speed:     xc3s200,tq144,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk
+------------------+------------+------------+------------------+--------+
+                  |Max Setup to|Max Hold to |                  | Clock  |
+Source            | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------------+------------+------------+------------------+--------+
+RX                |    3.154(R)|    0.731(R)|Clk_BUFGP         |   0.000|
+Rst               |    6.914(R)|   -0.382(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<0> |    6.326(R)|   -0.005(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<1> |    6.568(R)|    0.174(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<2> |    6.040(R)|    0.578(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<3> |    5.569(R)|    0.577(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<4> |    7.048(R)|    0.139(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<5> |    5.784(R)|    0.732(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<6> |    5.746(R)|    0.577(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<7> |    5.593(R)|    0.479(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<8> |    5.136(R)|    0.577(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<9> |    5.920(R)|    0.448(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<10>|    5.350(R)|    0.577(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<11>|    5.700(R)|    0.283(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<12>|    5.241(R)|    0.578(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<13>|    5.679(R)|    0.021(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<14>|    5.489(R)|   -0.004(R)|Clk_BUFGP         |   0.000|
+UART_ClkPerBit<15>|    5.490(R)|    0.019(R)|Clk_BUFGP         |   0.000|
+UART_TotalBit<0>  |    3.531(R)|   -0.088(R)|Clk_BUFGP         |   0.000|
+UART_TotalBit<1>  |    4.082(R)|   -0.528(R)|Clk_BUFGP         |   0.000|
+UART_TotalBit<2>  |    3.031(R)|   -0.012(R)|Clk_BUFGP         |   0.000|
+UART_TotalBit<3>  |    3.558(R)|   -0.434(R)|Clk_BUFGP         |   0.000|
+------------------+------------+------------+------------------+--------+
+
+Clock Clk to Pad
+---------------+------------+------------------+--------+
+               | clk (edge) |                  | Clock  |
+Destination    |   to PAD   |Internal Clock(s) | Phase  |
+---------------+------------+------------------+--------+
+DataReceive<0> |    8.406(R)|Clk_BUFGP         |   0.000|
+DataReceive<1> |    8.405(R)|Clk_BUFGP         |   0.000|
+DataReceive<2> |    9.118(R)|Clk_BUFGP         |   0.000|
+DataReceive<3> |    8.891(R)|Clk_BUFGP         |   0.000|
+DataReceive<4> |    9.171(R)|Clk_BUFGP         |   0.000|
+DataReceive<5> |    9.347(R)|Clk_BUFGP         |   0.000|
+DataReceive<6> |    8.795(R)|Clk_BUFGP         |   0.000|
+DataReceive<7> |    9.154(R)|Clk_BUFGP         |   0.000|
+DataReceive<8> |    9.790(R)|Clk_BUFGP         |   0.000|
+DataReceive<9> |    8.458(R)|Clk_BUFGP         |   0.000|
+UART_RXFinished|   12.203(R)|Clk_BUFGP         |   0.000|
+---------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    7.664|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Jan 14 13:10:32 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 158 MB
+
+
+

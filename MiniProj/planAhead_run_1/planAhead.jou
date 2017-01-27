@@ -1,0 +1,126 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Nov 19 20:57:47 2016
+# Process ID: 4812
+# Log file: C:/Users/noraw/Documents/VHDL/MiniProj/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/MiniProj/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/MiniProj/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P70 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P77 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P70 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P78 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P73 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P79 [get_ports {Segments[4]}]
+endgroup
+startgroup
+set_property package_pin P74 [get_ports {Segments[3]}]
+endgroup
+startgroup
+set_property package_pin P76 [get_ports {Segments[2]}]
+endgroup
+startgroup
+set_property package_pin P69 [get_ports {Segments[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Segments[0]}]]
+startgroup
+set_property package_pin P23 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {Segments[4]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {Segments[3]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {Segments[2]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {Segments[1]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {Segments[0]}]
+endgroup
+startgroup
+set_property package_pin P31 [get_ports d0]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports d1]
+endgroup
+startgroup
+set_property package_pin P36 [get_ports d2]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports d3]
+endgroup
+save_constraints
+refresh_design
+startgroup
+set_property package_pin P127 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  {bcd[3]}]]
+startgroup
+set_property package_pin P44 [get_ports {bcd[0]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {bcd[1]}]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports {bcd[2]}]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {bcd[3]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P23 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Segments[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Segments[6]}]]
+set_property package_pin "" [get_ports [list  {Segments[5]}]]
+set_property package_pin "" [get_ports [list  {Segments[4]}]]
+set_property package_pin "" [get_ports [list  {Segments[3]}]]
+set_property package_pin "" [get_ports [list  {Segments[2]}]]
+set_property package_pin "" [get_ports [list  {Segments[1]}]]
+set_property package_pin "" [get_ports [list  {Segments[0]}]]
+startgroup
+set_property package_pin P40 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {Segments[4]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {Segments[3]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {Segments[2]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Segments[1]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P23 [get_ports {Segments[0]}]
+endgroup
+save_constraints

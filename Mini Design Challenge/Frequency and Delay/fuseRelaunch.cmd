@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/noraw/Documents/VHDL/PWM/LEDSineTest_isim_beh.exe" -prj "C:/Users/noraw/Documents/VHDL/PWM/LEDSineTest_beh.prj" "work.LEDSineTest" 

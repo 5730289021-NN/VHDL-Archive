@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/noraw/Documents/VHDL/VendingMachine/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/noraw/Documents/VHDL/VendingMachine/xst"
+elaborate
+-ifn OneShot.prj
+-ifmt mixed

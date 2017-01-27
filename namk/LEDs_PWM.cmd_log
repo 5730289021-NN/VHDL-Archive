@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LEDs_PWM.ucf -p xc3s200-tq144-4 LEDs_PWM.ngc LEDs_PWM.ngd  
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.xst" -ofn "C:/Users/noraw/Documents/VHDL/namkuy/LEDs_PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LEDs_PWM.ucf -p xc3s200-tq144-4 LEDs_PWM.ngc LEDs_PWM.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o LEDs_PWM_map.ncd LEDs_PWM.ngd LEDs_PWM.pcf 
+par -w -intstyle ise -ol high -t 1 LEDs_PWM_map.ncd LEDs_PWM.ncd LEDs_PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LEDs_PWM.twx LEDs_PWM.ncd -o LEDs_PWM.twr LEDs_PWM.pcf -ucf LEDs_PWM.ucf 
+bitgen -intstyle ise -f LEDs_PWM.ut LEDs_PWM.ncd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/MiniDesignChallenge/RXModuleTest_isim_beh.exe" -prj "E:/MiniDesignChallenge/RXModuleTest_beh.prj" "work.RXModuleTest" 

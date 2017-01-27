@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/noraw/Documents/VHDL/MiniDesignChallenge/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/noraw/Documents/VHDL/MiniDesignChallenge/xst"
+elaborate
+-ifn UART_AmountDataBit_Decoder.prj
+-ifmt mixed

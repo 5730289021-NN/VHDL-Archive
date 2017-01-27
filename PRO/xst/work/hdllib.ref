@@ -1,0 +1,10 @@
+EN pro NULL C:/Users/noraw/Documents/VHDL/PRO/PRO.vhd sub00/vhpl00 1481101468
+AR sevenseg behavioral C:/Users/noraw/Documents/VHDL/PRO/seg.vhd sub00/vhpl09 1481101467
+AR decoder behavioral C:/Users/noraw/Documents/VHDL/PRO/DCD.vhd sub00/vhpl07 1481101465
+AR cntgen behavioral C:/Users/noraw/Documents/VHDL/PRO/clk.vhd sub00/vhpl05 1481101463
+EN bin2bcd_12bit NULL C:/Users/noraw/Documents/VHDL/PRO/bin.vhd sub00/vhpl02 1481101460
+AR pro behavioral C:/Users/noraw/Documents/VHDL/PRO/PRO.vhd sub00/vhpl01 1481101469
+EN cntgen NULL C:/Users/noraw/Documents/VHDL/PRO/clk.vhd sub00/vhpl04 1481101462
+AR bin2bcd_12bit behavioral C:/Users/noraw/Documents/VHDL/PRO/bin.vhd sub00/vhpl03 1481101461
+EN decoder NULL C:/Users/noraw/Documents/VHDL/PRO/DCD.vhd sub00/vhpl06 1481101464
+EN sevenseg NULL C:/Users/noraw/Documents/VHDL/PRO/seg.vhd sub00/vhpl08 1481101466

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Oak\Documents\Xilinx ISE Workspace\TXModule\impact.xsl
+OUTFILE=C:\Users\Oak\Documents\Xilinx ISE Workspace\TXModule\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\Oak\Documents\Xilinx ISE Workspace\TXModule
+LICENSE=iMPACT
+USER_INFO=iMPACT

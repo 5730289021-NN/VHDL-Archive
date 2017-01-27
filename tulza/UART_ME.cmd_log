@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.xst" -ofn "C:/Users/noraw/Documents/VHDL/tulza/UART_ME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART_ME.ucf -p xc3s200-tq144-4 UART_ME.ngc UART_ME.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o UART_ME_map.ncd UART_ME.ngd UART_ME.pcf 
+par -w -intstyle ise -ol high -t 1 UART_ME_map.ncd UART_ME.ncd UART_ME.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_ME.twx UART_ME.ncd -o UART_ME.twr UART_ME.pcf -ucf UART_ME.ucf 
+bitgen -intstyle ise -f UART_ME.ut UART_ME.ncd 

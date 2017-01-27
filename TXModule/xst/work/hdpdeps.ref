@@ -1,0 +1,16 @@
+V3 13
+FL C:/Users/noraw/Documents/VHDL/TXModule/dcm133.vhd 2016/12/14.17:50:14 P.20131013
+EN work/dcm133 1483699852 FL C:/Users/noraw/Documents/VHDL/TXModule/dcm133.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dcm133/BEHAVIORAL 1483699853 \
+      FL C:/Users/noraw/Documents/VHDL/TXModule/dcm133.vhd EN work/dcm133 1483699852 \
+      CP BUFG CP IBUFG CP DCM
+FL C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd 2017/01/06.17:50:46 P.20131013
+EN work/TXModule 1483699854 FL C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TXModule/Behavioral 1483699855 \
+      FL C:/Users/noraw/Documents/VHDL/TXModule/TX.vhd EN work/TXModule 1483699854 \
+      CP dcm133
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/dcm133.vhd" 2016/12/14.17:50:14 P.20131013
+FL "C:/Users/Oak/Documents/Xilinx ISE Workspace/TXModule/TX.vhd" 2016/12/30.10:20:18 P.20131013

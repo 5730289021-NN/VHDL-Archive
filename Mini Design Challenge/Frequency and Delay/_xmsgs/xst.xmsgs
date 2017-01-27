@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/PWM/LEDSine.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/PWM/SineGenerator.vhd</arg>&quot; line <arg fmt="%d" index="2">314</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom_Sine_Value_mux0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">Sine_Value</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom_Sine_Value_mux0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Sine_ClkPerTick_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Sine_ClkPerTick_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Sine_ClkPerTick_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">LEDSine</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">u7_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt;, &lt;<arg fmt="%s" index="3">u6_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">u7_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">LEDSine</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">u5_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt;, &lt;<arg fmt="%s" index="3">u4_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">u5_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">LEDSine</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">u3_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt;, &lt;<arg fmt="%s" index="3">u2_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">u3_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">LEDSine</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">u1_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt;, &lt;<arg fmt="%s" index="3">u0_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">u1_Sine_Compound/u_Sine_Generator/Mrom_Sine_Value_mux00011</arg>&gt;
+</msg>
+
+</messages>
+

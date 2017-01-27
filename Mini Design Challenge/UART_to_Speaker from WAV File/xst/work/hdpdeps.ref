@@ -1,0 +1,42 @@
+V3 27
+FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/dcm133.vhd 2016/12/14.17:50:14 P.20131013
+EN work/dcm133 1484790873 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/dcm133.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dcm133/BEHAVIORAL 1484790874 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/dcm133.vhd EN work/dcm133 1484790873 \
+      CP BUFG CP IBUFG CP DCM
+FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.vhd 2017/01/19.08:54:29 P.20131013
+EN work/Main 1484790883 FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Main/Behavioral 1484790884 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.vhd EN work/Main 1484790883 \
+      CP dcm133 CP UART_ClkPerBit_Decoder CP UART_Buffer CP RXModule CP PWM
+FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/PWM.vhd 2017/01/16.14:01:27 P.20131013
+EN work/PWM 1484790881 FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/PWM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/PWM/Behavioral 1484790882 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/PWM.vhd EN work/PWM 1484790881
+FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/RXModule.vhd 2017/01/14.14:31:57 P.20131013
+EN work/RXModule 1484790879 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/RXModule.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RXModule/Behavioral 1484790880 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/RXModule.vhd \
+      EN work/RXModule 1484790879
+FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_Buffer.vhd 2017/01/18.11:38:42 P.20131013
+EN work/UART_Buffer 1484790877 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_Buffer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/UART_Buffer/Behavioral 1484790878 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_Buffer.vhd \
+      EN work/UART_Buffer 1484790877
+FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_ClkPerBit_Decoder.vhd 2017/01/13.11:05:38 P.20131013
+EN work/UART_ClkPerBit_Decoder 1484790875 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_ClkPerBit_Decoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/UART_ClkPerBit_Decoder/Behavioral 1484790876 \
+      FL C:/Users/noraw/Documents/VHDL/UART_to_Speaker/UART_ClkPerBit_Decoder.vhd \
+      EN work/UART_ClkPerBit_Decoder 1484790875

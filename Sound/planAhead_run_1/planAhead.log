@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Dec 03 13:47:03 2016
+# Process ID: 6564
+# Log file: C:/Users/noraw/XilinxWorkspace/Sound/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/XilinxWorkspace/Sound/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/noraw/XilinxWorkspace/Sound/pa.fromNetlist.tcl
+# create_project -name Sound -dir "C:/Users/noraw/XilinxWorkspace/Sound/planAhead_run_1" -part xc3s200tq144-4
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 402.496 ; gain = 21.109
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/noraw/XilinxWorkspace/Sound/Core.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/noraw/XilinxWorkspace/Sound} }
+# set_property target_constrs_file "Core.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/noraw/XilinxWorkspace/Sound/Core.ucf' to fileset 'constrs_1'
+# add_files [list {Core.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s200tq144-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Core.ngc ...
+WARNING:NetListWriters:298 - No output is written to Core.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Core.edif ...
+ngc2edif: Total memory usage is 81492 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Sound.data/cache/Core_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Sound.data/cache/Core_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/ClockBuffers.xml
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/tq144/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s200/tq144/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+Parsing UCF File [C:/Users/noraw/XilinxWorkspace/Sound/Core.ucf]
+Finished Parsing UCF File [C:/Users/noraw/XilinxWorkspace/Sound/Core.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 52852485
+link_design: Time (s): elapsed = 00:00:24 . Memory (MB): peak = 459.977 ; gain = 44.473
+startgroup
+set_property package_pin P124 [get_ports buzzer]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports osc]
+endgroup
+save_constraints

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TX2/writebyme.xst" -ofn "C:/Users/noraw/Documents/VHDL/TX2/writebyme.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TX2/writebyme.xst" -ofn "C:/Users/noraw/Documents/VHDL/TX2/writebyme.syr" 
+xst -intstyle ise -ifn "C:/Users/noraw/Documents/VHDL/TX2/writebyme.xst" -ofn "C:/Users/noraw/Documents/VHDL/TX2/writebyme.syr" 

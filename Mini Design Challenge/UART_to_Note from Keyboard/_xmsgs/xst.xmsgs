@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dcm133</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_ClkPerBit_Decoder.vhd</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/noraw/Documents/VHDL/UART_to_Note/SineGenerator.vhd</arg>&quot; line <arg fmt="%d" index="2">314</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">DipSW&lt;4:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">UART_FreqIn</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">UART_BufferDataOut&lt;9:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">UART_Buffer_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_UART_Buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">UART_Buffer_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_UART_Buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">DataReceive_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_RXModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">DataReceive_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_RXModule</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">Mrom_Sine_Value_mux0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">Sine_Value</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mrom_Sine_Value_mux0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3034" delta="new" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_UART_ClkPerBit_mux0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">UART_ClkPerBit_Decoder</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">UART_ClkPerBit_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">UART_ClkPerBit_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;UART_ClkPerBit_13&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">u_UART_Buffer/UART_Buffer_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">u_UART_Buffer/UART_Buffer_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">u_RXModule/DataReceive_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">u_RXModule/DataReceive_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Main</arg>&gt;.
+</msg>
+
+</messages>
+

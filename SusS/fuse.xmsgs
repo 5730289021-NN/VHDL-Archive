@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Work/SusS/scroll.vhd" Line 45: &lt;<arg fmt="%s" index="1">clkdiv</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1321" delta="unknown" >"D:/Work/SusS/P7.vhd" Line 18: Right bound value &lt;<arg fmt="%s" index="1">90</arg>&gt; of slice is out of range <arg fmt="%s" index="2">[0:51]</arg> of array &lt;<arg fmt="%s" index="3">msg_array</arg>&gt;
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="960" delta="unknown" >"D:/Work/SusS/P7.vhd" Line 18: Expression has incompatible type
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="960" delta="unknown" >"D:/Work/SusS/P7.vhd" Line 19: Expression has incompatible type
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Work/SusS/scroll.vhd</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. Instance <arg fmt="%s" index="3">clkdiv</arg> is unbound
+</msg>
+
+</messages>
+

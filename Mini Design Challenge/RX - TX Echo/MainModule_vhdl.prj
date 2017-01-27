@@ -1,0 +1,8 @@
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\UART_TotalBit_Decoder.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\UART_ParityEnb.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\UART_ClkPerBit_Decoder.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\UART_Buffer.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\UART_AmountDataBit_Decoder.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\TXModule.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\RXModule.vhd"
+vhdl work "C:\Users\Oak\Documents\Xilinx ISE Workspace\MiniDesignChallenge\MainModule.vhd"

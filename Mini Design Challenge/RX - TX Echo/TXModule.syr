@@ -1,0 +1,445 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> Reading design: TXModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TXModule.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TXModule"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : TXModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/MiniDesignChallenge/TXModule.vhd" in Library work.
+Entity <txmodule> compiled.
+Entity <txmodule> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TXModule> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TXModule> in library <work> (Architecture <behavioral>).
+Entity <TXModule> analyzed. Unit <TXModule> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <TXModule>.
+    Related source file is "E:/MiniDesignChallenge/TXModule.vhd".
+    Found finite state machine <FSM_0> for signal <FSMState>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Clock enable       | Rst                       (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit register for signal <ClkCounter>.
+    Found 16-bit adder for signal <ClkCounter$addsub0000> created at line 71.
+    Found 4-bit comparator equal for signal <FSMState$cmp_eq0000> created at line 75.
+    Found 16-bit comparator less for signal <FSMState$cmp_lt0000> created at line 70.
+    Found 4-bit up counter for signal <posSending>.
+    Found 16-bit comparator greatequal for signal <posSending$cmp_ge0000> created at line 70.
+    Found 1-bit register for signal <TXBuffer>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <TXModule> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 16-bit register                                       : 1
+# Comparators                                          : 3
+ 16-bit comparator greatequal                          : 1
+ 16-bit comparator less                                : 1
+ 4-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <FSMState/FSM> on signal <FSMState[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Comparators                                          : 3
+ 16-bit comparator greatequal                          : 1
+ 16-bit comparator less                                : 1
+ 4-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TXModule> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TXModule, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TXModule.ngr
+Top Level Output File Name         : TXModule
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 34
+
+Cell Usage :
+# BELS                             : 122
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 15
+#      LUT2                        : 21
+#      LUT2_D                      : 1
+#      LUT3                        : 2
+#      LUT3_D                      : 1
+#      LUT4                        : 26
+#      LUT4_D                      : 2
+#      MUXCY                       : 31
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 23
+#      FDE                         : 2
+#      FDR                         : 16
+#      FDRE                        : 4
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 32
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                       36  out of   1920     1%  
+ Number of Slice Flip Flops:             23  out of   3840     0%  
+ Number of 4 input LUTs:                 71  out of   3840     1%  
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of     97    35%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 23    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.707ns (Maximum Frequency: 129.752MHz)
+   Minimum input arrival time before clock: 7.846ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 7.707ns (frequency: 129.752MHz)
+  Total number of paths / destination ports: 1093 / 32
+-------------------------------------------------------------------------
+Delay:               7.707ns (Levels of Logic = 19)
+  Source:            ClkCounter_0 (FF)
+  Destination:       ClkCounter_0 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: ClkCounter_0 to ClkCounter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.720   1.102  ClkCounter_0 (ClkCounter_0)
+     LUT2:I1->O            1   0.551   0.000  Mcompar_FSMState_cmp_lt0000_lut<0> (Mcompar_FSMState_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_FSMState_cmp_lt0000_cy<0> (Mcompar_FSMState_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<1> (Mcompar_FSMState_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<2> (Mcompar_FSMState_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<3> (Mcompar_FSMState_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<4> (Mcompar_FSMState_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<5> (Mcompar_FSMState_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<6> (Mcompar_FSMState_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<7> (Mcompar_FSMState_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<8> (Mcompar_FSMState_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<9> (Mcompar_FSMState_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<10> (Mcompar_FSMState_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<11> (Mcompar_FSMState_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<12> (Mcompar_FSMState_cmp_lt0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<13> (Mcompar_FSMState_cmp_lt0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<14> (Mcompar_FSMState_cmp_lt0000_cy<14>)
+     MUXCY:CI->O           5   0.303   1.116  Mcompar_FSMState_cmp_lt0000_cy<15> (Mcompar_FSMState_cmp_lt0000_cy<15>)
+     LUT2_D:I1->O         15   0.551   1.214  FSMState_FSM_FFd2-In11 (N2)
+     LUT4:I3->O            1   0.551   0.000  ClkCounter_mux0000<8>1 (ClkCounter_mux0000<8>)
+     FDR:D                     0.203          ClkCounter_7
+    ----------------------------------------
+    Total                      7.707ns (4.275ns logic, 3.432ns route)
+                                       (55.5% logic, 44.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 490 / 46
+-------------------------------------------------------------------------
+Offset:              7.846ns (Levels of Logic = 20)
+  Source:            UART_ClkPerBit<0> (PAD)
+  Destination:       ClkCounter_0 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: UART_ClkPerBit<0> to ClkCounter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   1.140  UART_ClkPerBit_0_IBUF (UART_ClkPerBit_0_IBUF)
+     LUT2:I0->O            1   0.551   0.000  Mcompar_FSMState_cmp_lt0000_lut<0> (Mcompar_FSMState_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_FSMState_cmp_lt0000_cy<0> (Mcompar_FSMState_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<1> (Mcompar_FSMState_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<2> (Mcompar_FSMState_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<3> (Mcompar_FSMState_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<4> (Mcompar_FSMState_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<5> (Mcompar_FSMState_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<6> (Mcompar_FSMState_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<7> (Mcompar_FSMState_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<8> (Mcompar_FSMState_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<9> (Mcompar_FSMState_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<10> (Mcompar_FSMState_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<11> (Mcompar_FSMState_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<12> (Mcompar_FSMState_cmp_lt0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<13> (Mcompar_FSMState_cmp_lt0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_FSMState_cmp_lt0000_cy<14> (Mcompar_FSMState_cmp_lt0000_cy<14>)
+     MUXCY:CI->O           5   0.303   1.116  Mcompar_FSMState_cmp_lt0000_cy<15> (Mcompar_FSMState_cmp_lt0000_cy<15>)
+     LUT2_D:I1->O         15   0.551   1.214  FSMState_FSM_FFd2-In11 (N2)
+     LUT4:I3->O            1   0.551   0.000  ClkCounter_mux0000<8>1 (ClkCounter_mux0000<8>)
+     FDR:D                     0.203          ClkCounter_7
+    ----------------------------------------
+    Total                      7.846ns (4.376ns logic, 3.470ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            TXBuffer (FF)
+  Destination:       TX (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: TXBuffer to TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              1   0.720   0.801  TXBuffer (TXBuffer)
+     OBUF:I->O                 5.644          TX_OBUF (TX)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.95 secs
+ 
+--> 
+
+Total memory usage is 306196 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

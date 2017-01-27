@@ -1,0 +1,7 @@
+V3 4
+FL C:/Users/noraw/Documents/VHDL/Sound/Core.vhd 2016/12/07.09:35:47 P.20131013
+EN work/Core 1481078155 FL C:/Users/noraw/Documents/VHDL/Sound/Core.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Core/Behavioral 1481078156 \
+      FL C:/Users/noraw/Documents/VHDL/Sound/Core.vhd EN work/Core 1481078155
+FL C:/Users/noraw/XilinxWorkspace/Sound/Core.vhd 2016/12/03.22:57:03 P.20131013

@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 06 23:07:02 2016
+# Process ID: 11652
+# Log file: C:/Users/noraw/Documents/VHDL/VendingMachine/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/VendingMachine/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/noraw/Documents/VHDL/VendingMachine/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P41 [get_ports {Digits[4]}]
+endgroup
+startgroup
+set_property package_pin P36 [get_ports {Digits[3]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {Digits[2]}]
+endgroup
+startgroup
+set_property package_pin P31 [get_ports {Digits[1]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {Segments[6]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {Segments[5]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {Segments[4]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {Segments[3]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {Segments[2]}]
+endgroup
+startgroup
+set_property package_pin P25 [get_ports {Segments[1]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {Segments[0]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports Baht10]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports Baht20]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports Clock]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P70 [get_ports Dispensed]
+endgroup
+save_constraints

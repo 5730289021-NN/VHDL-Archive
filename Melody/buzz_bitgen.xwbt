@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\noraw\Documents\VHDL\Melody\buzz.ncd
+OUTFILE=C:\Users\noraw\Documents\VHDL\Melody\buzz.bit
+FAMILY=Spartan3
+PART=xc3s400-4tq144
+WORKINGDIR=C:\Users\noraw\Documents\VHDL\Melody
+LICENSE=WebPack
+USER_INFO=211176972_0_0_656

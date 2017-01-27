@@ -1,0 +1,646 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Main"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : Main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/dcm133.vhd" in Library work.
+Architecture behavioral of Entity dcm133 is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_ClkPerBit_Decoder.vhd" in Library work.
+Architecture behavioral of Entity uart_clkperbit_decoder is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_Buffer.vhd" in Library work.
+Architecture behavioral of Entity uart_buffer is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/RXModule.vhd" in Library work.
+Architecture behavioral of Entity rxmodule is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/Sine_ClkPerTickDecoder.vhd" in Library work.
+Architecture behavioral of Entity sine_clkpertick_decoder_special is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/SineGenerator.vhd" in Library work.
+Architecture behavioral of Entity sine_generator is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/PWM.vhd" in Library work.
+Architecture behavioral of Entity pwm is up to date.
+Compiling vhdl file "C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd" in Library work.
+Entity <main> compiled.
+Entity <main> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dcm133> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART_ClkPerBit_Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART_Buffer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RXModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sine_ClkPerTick_Decoder_Special> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sine_Generator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PWM> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd" line 135: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm133'.
+WARNING:Xst:753 - "C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd" line 135: Unconnected output port 'CLK0_OUT' of component 'dcm133'.
+Entity <Main> analyzed. Unit <Main> generated.
+
+Analyzing Entity <dcm133> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_MULTIPLY =  16" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_PERIOD =  40.0000000000000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "FACTORY_JF =  8080" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+Entity <dcm133> analyzed. Unit <dcm133> generated.
+
+Analyzing Entity <UART_ClkPerBit_Decoder> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_ClkPerBit_Decoder.vhd" line 61: Mux is complete : default of case is discarded
+Entity <UART_ClkPerBit_Decoder> analyzed. Unit <UART_ClkPerBit_Decoder> generated.
+
+Analyzing Entity <UART_Buffer> in library <work> (Architecture <behavioral>).
+Entity <UART_Buffer> analyzed. Unit <UART_Buffer> generated.
+
+Analyzing Entity <RXModule> in library <work> (Architecture <behavioral>).
+Entity <RXModule> analyzed. Unit <RXModule> generated.
+
+Analyzing Entity <Sine_ClkPerTick_Decoder_Special> in library <work> (Architecture <behavioral>).
+Entity <Sine_ClkPerTick_Decoder_Special> analyzed. Unit <Sine_ClkPerTick_Decoder_Special> generated.
+
+Analyzing Entity <Sine_Generator> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/noraw/Documents/VHDL/UART_to_Note/SineGenerator.vhd" line 314: Mux is complete : default of case is discarded
+Entity <Sine_Generator> analyzed. Unit <Sine_Generator> generated.
+
+Analyzing Entity <PWM> in library <work> (Architecture <behavioral>).
+Entity <PWM> analyzed. Unit <PWM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UART_ClkPerBit_Decoder>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_ClkPerBit_Decoder.vhd".
+    Found 8x16-bit ROM for signal <UART_ClkPerBit$mux0002> created at line 53.
+    Found 16-bit register for signal <UART_ClkPerBit>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <UART_ClkPerBit_Decoder> synthesized.
+
+
+Synthesizing Unit <UART_Buffer>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/UART_Buffer.vhd".
+    Found 10-bit register for signal <UART_Buffer>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <UART_Buffer> synthesized.
+
+
+Synthesizing Unit <RXModule>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/RXModule.vhd".
+    Found finite state machine <FSM_0> for signal <FSMState>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Rst                       (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit register for signal <DataReceive>.
+    Found 16-bit register for signal <ClkCounter>.
+    Found 16-bit adder for signal <ClkCounter$share0000> created at line 67.
+    Found 4-bit register for signal <DataLocation>.
+    Found 4-bit adder for signal <DataLocation$addsub0000> created at line 92.
+    Found 16-bit comparator greatequal for signal <FSMState$cmp_ge0000> created at line 77.
+    Found 16-bit comparator greatequal for signal <FSMState$cmp_ge0001> created at line 85.
+    Found 1-bit register for signal <Readable>.
+    Found 16-bit register for signal <WaitTime>.
+    Found 16-bit adder for signal <WaitTime$add0000> created at line 75.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  47 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <RXModule> synthesized.
+
+
+Synthesizing Unit <Sine_ClkPerTick_Decoder_Special>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/Sine_ClkPerTickDecoder.vhd".
+    Found 32x12-bit ROM for signal <Sine_ClkPerTick$mux0003>.
+    Found 12-bit register for signal <Sine_ClkPerTick>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  12 D-type flip-flop(s).
+Unit <Sine_ClkPerTick_Decoder_Special> synthesized.
+
+
+Synthesizing Unit <Sine_Generator>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/SineGenerator.vhd".
+    Found 256x8-bit ROM for signal <Sine_Value$mux0001> created at line 58.
+    Found 8-bit register for signal <Sine_Value>.
+    Found 12-bit up counter for signal <ClkCounter>.
+    Found 8-bit up counter for signal <Sine_Position>.
+    Found 12-bit comparator equal for signal <Sine_Value$cmp_eq0000> created at line 56.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   2 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Sine_Generator> synthesized.
+
+
+Synthesizing Unit <PWM>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/PWM.vhd".
+    Found 1-bit register for signal <LED>.
+    Found 8-bit comparator greater for signal <LED$cmp_gt0000> created at line 58.
+    Found 8-bit up counter for signal <PWMCount>.
+    Found 8-bit adder for signal <PWMCount$add0000> created at line 57.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <PWM> synthesized.
+
+
+Synthesizing Unit <dcm133>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/dcm133.vhd".
+Unit <dcm133> synthesized.
+
+
+Synthesizing Unit <Main>.
+    Related source file is "C:/Users/noraw/Documents/VHDL/UART_to_Note/Main.vhd".
+WARNING:Xst:647 - Input <DipSW<4:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <UART_FreqIn> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <UART_BufferDataOut<9:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Main> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 3
+ 256x8-bit ROM                                         : 1
+ 32x12-bit ROM                                         : 1
+ 8x16-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 2
+ 4-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 3
+ 12-bit up counter                                     : 1
+ 8-bit up counter                                      : 2
+# Registers                                            : 19
+ 1-bit register                                        : 12
+ 10-bit register                                       : 1
+ 12-bit register                                       : 1
+ 16-bit register                                       : 3
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 4
+ 12-bit comparator equal                               : 1
+ 16-bit comparator greatequal                          : 2
+ 8-bit comparator greater                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <u_RXModule/FSMState/FSM> on signal <FSMState[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+WARNING:Xst:2677 - Node <UART_Buffer_8> of sequential type is unconnected in block <u_UART_Buffer>.
+WARNING:Xst:2677 - Node <UART_Buffer_9> of sequential type is unconnected in block <u_UART_Buffer>.
+WARNING:Xst:2677 - Node <DataReceive_8> of sequential type is unconnected in block <u_RXModule>.
+WARNING:Xst:2677 - Node <DataReceive_9> of sequential type is unconnected in block <u_RXModule>.
+
+Synthesizing (advanced) Unit <Sine_Generator>.
+INFO:Xst:3044 - The ROM <Mrom_Sine_Value_mux0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <Sine_Value>.
+INFO:Xst:3225 - The RAM <Mrom_Sine_Value_mux0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     enA            | connected to signal <Sine_Value_cmp_eq0000> | high     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <Sine_Position> |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <Sine_Value>    |          |
+    |     dorstA         | connected to signal <Rst>           | low      |
+    | reset value        | 10000000                                       |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <Sine_Generator> synthesized (advanced).
+
+Synthesizing (advanced) Unit <UART_ClkPerBit_Decoder>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_UART_ClkPerBit_mux0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <UART_ClkPerBit_Decoder> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 256x8-bit single-port block RAM                       : 1
+# ROMs                                                 : 2
+ 32x12-bit ROM                                         : 1
+ 8x16-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 2
+ 4-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 3
+ 12-bit up counter                                     : 1
+ 8-bit up counter                                      : 2
+# Registers                                            : 86
+ Flip-Flops                                            : 86
+# Comparators                                          : 4
+ 12-bit comparator equal                               : 1
+ 16-bit comparator greatequal                          : 2
+ 8-bit comparator greater                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <UART_ClkPerBit_15> (without init value) has a constant value of 0 in block <UART_ClkPerBit_Decoder>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Main> ...
+
+Optimizing unit <UART_ClkPerBit_Decoder> ...
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+
+Optimizing unit <UART_Buffer> ...
+
+Optimizing unit <RXModule> ...
+
+Optimizing unit <Sine_ClkPerTick_Decoder_Special> ...
+WARNING:Xst:2677 - Node <u_UART_Buffer/UART_Buffer_9> of sequential type is unconnected in block <Main>.
+WARNING:Xst:2677 - Node <u_UART_Buffer/UART_Buffer_8> of sequential type is unconnected in block <Main>.
+WARNING:Xst:2677 - Node <u_RXModule/DataReceive_8> of sequential type is unconnected in block <Main>.
+WARNING:Xst:2677 - Node <u_RXModule/DataReceive_9> of sequential type is unconnected in block <Main>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 109
+ Flip-Flops                                            : 109
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Main.ngr
+Top Level Output File Name         : Main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 392
+#      GND                         : 2
+#      INV                         : 7
+#      LUT1                        : 40
+#      LUT2                        : 56
+#      LUT2_D                      : 1
+#      LUT3                        : 19
+#      LUT3_D                      : 2
+#      LUT3_L                      : 6
+#      LUT4                        : 78
+#      LUT4_D                      : 1
+#      LUT4_L                      : 5
+#      MUXCY                       : 101
+#      MUXF5                       : 13
+#      VCC                         : 1
+#      XORCY                       : 60
+# FlipFlops/Latches                : 109
+#      FD                          : 11
+#      FDE                         : 33
+#      FDR                         : 34
+#      FDRE                        : 24
+#      FDS                         : 7
+# RAMS                             : 1
+#      RAMB16                      : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 7
+#      IBUF                        : 5
+#      IBUFG                       : 1
+#      OBUF                        : 1
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                      130  out of   1920     6%  
+ Number of Slice Flip Flops:            109  out of   3840     2%  
+ Number of 4 input LUTs:                215  out of   3840     5%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                   7  out of     97     7%  
+ Number of BRAMs:                         1  out of     12     8%  
+ Number of GCLKs:                         2  out of      8    25%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SysClk                             | u_dcm133/DCM_INST:CLKFX| 110   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 45.029ns (Maximum Frequency: 22.208MHz)
+   Minimum input arrival time before clock: 5.368ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SysClk'
+  Clock period: 45.029ns (frequency: 22.208MHz)
+  Total number of paths / destination ports: 3568 / 177
+-------------------------------------------------------------------------
+Delay:               8.443ns (Levels of Logic = 8)
+  Source:            u_PWM/PWMCount_3 (FF)
+  Destination:       u_PWM/LED (FF)
+  Source Clock:      SysClk rising 5.3X
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: u_PWM/PWMCount_3 to u_PWM/LED
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.720   1.256  u_PWM/PWMCount_3 (u_PWM/PWMCount_3)
+     LUT4:I0->O            1   0.551   0.996  u_PWM/Madd_PWMCount_add0000_xor<3>11 (u_PWM/PWMCount_add0000<3>)
+     LUT2:I1->O            1   0.551   0.000  u_PWM/Mcompar_LED_cmp_gt0000_lut<3> (u_PWM/Mcompar_LED_cmp_gt0000_lut<3>)
+     MUXCY:S->O            1   0.500   0.000  u_PWM/Mcompar_LED_cmp_gt0000_cy<3> (u_PWM/Mcompar_LED_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  u_PWM/Mcompar_LED_cmp_gt0000_cy<4> (u_PWM/Mcompar_LED_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  u_PWM/Mcompar_LED_cmp_gt0000_cy<5> (u_PWM/Mcompar_LED_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  u_PWM/Mcompar_LED_cmp_gt0000_cy<6> (u_PWM/Mcompar_LED_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.303   0.996  u_PWM/Mcompar_LED_cmp_gt0000_cy<7> (u_PWM/Mcompar_LED_cmp_gt0000_cy<7>)
+     LUT2:I1->O            1   0.551   0.801  u_PWM/LED_or00001 (u_PWM/LED_or0000)
+     FDR:R                     1.026          u_PWM/LED
+    ----------------------------------------
+    Total                      8.443ns (4.394ns logic, 4.049ns route)
+                                       (52.0% logic, 48.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SysClk'
+  Total number of paths / destination ports: 47 / 24
+-------------------------------------------------------------------------
+Offset:              5.368ns (Levels of Logic = 4)
+  Source:            RX (PAD)
+  Destination:       u_RXModule/DataReceive_7 (FF)
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: RX to u_RXModule/DataReceive_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.821   1.112  RX_IBUF (RX_IBUF)
+     LUT3_D:I1->LO         1   0.551   0.439  u_RXModule/DataReceive_1_mux000011 (N78)
+     LUT3:I0->O            1   0.551   1.140  u_RXModule/DataReceive_7_mux000041 (u_RXModule/DataReceive_7_mux000041)
+     LUT3:I0->O            1   0.551   0.000  u_RXModule/DataReceive_7_mux000043 (u_RXModule/DataReceive_7_mux0000)
+     FDRE:D                    0.203          u_RXModule/DataReceive_7
+    ----------------------------------------
+    Total                      5.368ns (2.677ns logic, 2.691ns route)
+                                       (49.9% logic, 50.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SysClk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            u_PWM/LED (FF)
+  Destination:       Speaker (PAD)
+  Source Clock:      SysClk rising 5.3X
+
+  Data Path: u_PWM/LED to Speaker
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.720   0.801  u_PWM/LED (u_PWM/LED)
+     OBUF:I->O                 5.644          Speaker_OBUF (Speaker)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.61 secs
+ 
+--> 
+
+Total memory usage is 323112 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :   14 (   0 filtered)
+

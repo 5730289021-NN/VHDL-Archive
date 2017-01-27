@@ -1,0 +1,8 @@
+V3 4
+FL C:/Users/noraw/Documents/VHDL/TX2/tx2.vhd 2017/01/05.17:40:28 P.20131013
+EN work/writebyme 1483613211 FL C:/Users/noraw/Documents/VHDL/TX2/tx2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/writebyme/Behavioral 1483613212 \
+      FL C:/Users/noraw/Documents/VHDL/TX2/tx2.vhd EN work/writebyme 1483613211 \
+      CP dcm133

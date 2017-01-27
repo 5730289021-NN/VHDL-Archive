@@ -1,0 +1,669 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> Reading design: MainModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MainModule.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MainModule"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : MainModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MainModule is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/MainModule.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/MainModule/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/MainModule.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/RXModule is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/RXModule.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/RXModule/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/RXModule.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/TXModule is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/TXModule.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/TXModule/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/TXModule.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_AmountDataBit_Decoder is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_AmountDataBit_Decoder/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_Buffer is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_Buffer.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_Buffer/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_Buffer.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_ClkPerBit_Decoder is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_ClkPerBit_Decoder/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_ParityEnb_Decoder is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_ParityEnb.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_ParityEnb_Decoder/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_ParityEnb.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_TotalBit_Decoder is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_TotalBit_Decoder.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/UART_TotalBit_Decoder/Behavioral is now defined in a different file.  It was defined in "E:/MiniDesignChallenge/UART_TotalBit_Decoder.vhd", and is now defined in "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd".
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd" in Library work.
+Architecture behavioral of Entity uart_clkperbit_decoder is up to date.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd" in Library work.
+Architecture behavioral of Entity uart_amountdatabit_decoder is up to date.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd" in Library work.
+Architecture behavioral of Entity uart_parityenb_decoder is up to date.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd" in Library work.
+Architecture behavioral of Entity uart_totalbit_decoder is up to date.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd" in Library work.
+Entity <txmodule> compiled.
+Entity <txmodule> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd" in Library work.
+Entity <uart_buffer> compiled.
+Entity <uart_buffer> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd" in Library work.
+Architecture behavioral of Entity rxmodule is up to date.
+Compiling vhdl file "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd" in Library work.
+Architecture behavioral of Entity mainmodule is up to date.
+Compiling verilog file "dcm133.v" in library work
+Module <dcm133> compiled
+No errors in compilation
+Analysis of file <"MainModule.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MainModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <dcm133> in library <work>.
+
+Analyzing hierarchy for entity <UART_ClkPerBit_Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART_AmountDataBit_Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART_ParityEnb_Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART_TotalBit_Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <TXModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART_Buffer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RXModule> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MainModule> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd" line 144: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm133'.
+WARNING:Xst:753 - "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd" line 144: Unconnected output port 'CLK0_OUT' of component 'dcm133'.
+Entity <MainModule> analyzed. Unit <MainModule> generated.
+
+Analyzing module <dcm133> in library <work>.
+Module <dcm133> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm133>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKFX_MULTIPLY =  16" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKIN_PERIOD =  40.000000" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "FACTORY_JF =  8080" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <dcm133>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <dcm133>.
+Analyzing Entity <UART_ClkPerBit_Decoder> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd" line 61: Mux is complete : default of case is discarded
+Entity <UART_ClkPerBit_Decoder> analyzed. Unit <UART_ClkPerBit_Decoder> generated.
+
+Analyzing Entity <UART_AmountDataBit_Decoder> in library <work> (Architecture <behavioral>).
+Entity <UART_AmountDataBit_Decoder> analyzed. Unit <UART_AmountDataBit_Decoder> generated.
+
+Analyzing Entity <UART_ParityEnb_Decoder> in library <work> (Architecture <behavioral>).
+Entity <UART_ParityEnb_Decoder> analyzed. Unit <UART_ParityEnb_Decoder> generated.
+
+Analyzing Entity <UART_TotalBit_Decoder> in library <work> (Architecture <behavioral>).
+Entity <UART_TotalBit_Decoder> analyzed. Unit <UART_TotalBit_Decoder> generated.
+
+Analyzing Entity <TXModule> in library <work> (Architecture <behavioral>).
+Entity <TXModule> analyzed. Unit <TXModule> generated.
+
+Analyzing Entity <UART_Buffer> in library <work> (Architecture <behavioral>).
+Entity <UART_Buffer> analyzed. Unit <UART_Buffer> generated.
+
+Analyzing Entity <RXModule> in library <work> (Architecture <behavioral>).
+Entity <RXModule> analyzed. Unit <RXModule> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UART_ClkPerBit_Decoder>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ClkPerBit_Decoder.vhd".
+    Found 8x16-bit ROM for signal <UART_ClkPerBit$mux0002> created at line 53.
+    Found 16-bit register for signal <UART_ClkPerBit>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <UART_ClkPerBit_Decoder> synthesized.
+
+
+Synthesizing Unit <UART_AmountDataBit_Decoder>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_AmountDataBit_Decoder.vhd".
+    Found 4-bit register for signal <UART_AmountDataBit>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <UART_AmountDataBit_Decoder> synthesized.
+
+
+Synthesizing Unit <UART_ParityEnb_Decoder>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_ParityEnb.vhd".
+    Found 1-bit register for signal <UART_ParityEnb>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <UART_ParityEnb_Decoder> synthesized.
+
+
+Synthesizing Unit <UART_TotalBit_Decoder>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_TotalBit_Decoder.vhd".
+    Found 4-bit register for signal <UART_TotalBit>.
+    Found 4-bit adder for signal <UART_TotalBit$addsub0000> created at line 54.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <UART_TotalBit_Decoder> synthesized.
+
+
+Synthesizing Unit <TXModule>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/TXModule.vhd".
+    Found finite state machine <FSM_0> for signal <FSMState>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Rst                       (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit register for signal <ClkCounter>.
+    Found 16-bit adder for signal <ClkCounter$addsub0000> created at line 73.
+    Found 4-bit comparator equal for signal <FSMState$cmp_eq0000> created at line 76.
+    Found 16-bit comparator less for signal <FSMState$cmp_lt0000> created at line 72.
+    Found 4-bit register for signal <posSending>.
+    Found 4-bit adder for signal <posSending$addsub0000> created at line 80.
+    Found 1-bit register for signal <TXBuffer>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <TXModule> synthesized.
+
+
+Synthesizing Unit <UART_Buffer>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/UART_Buffer.vhd".
+    Found 10-bit register for signal <UART_Buffer>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <UART_Buffer> synthesized.
+
+
+Synthesizing Unit <RXModule>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/RXModule.vhd".
+    Found finite state machine <FSM_1> for signal <FSMState>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Rst                       (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit register for signal <DataReceive>.
+    Found 16-bit register for signal <ClkCounter>.
+    Found 16-bit adder for signal <ClkCounter$share0000> created at line 67.
+    Found 4-bit register for signal <DataLocation>.
+    Found 4-bit adder for signal <DataLocation$addsub0000> created at line 92.
+    Found 4-bit comparator equal for signal <FSMState$cmp_eq0000> created at line 87.
+    Found 16-bit comparator greatequal for signal <FSMState$cmp_ge0000> created at line 77.
+    Found 16-bit comparator greatequal for signal <FSMState$cmp_ge0001> created at line 85.
+    Found 4-bit subtractor for signal <FSMState$sub0000> created at line 87.
+    Found 1-bit register for signal <Readable>.
+    Found 16-bit register for signal <WaitTime>.
+    Found 16-bit adder for signal <WaitTime$add0000> created at line 75.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  47 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <RXModule> synthesized.
+
+
+Synthesizing Unit <dcm133>.
+    Related source file is "dcm133.v".
+Unit <dcm133> synthesized.
+
+
+Synthesizing Unit <MainModule>.
+    Related source file is "C:/Users/Oak/Documents/Xilinx ISE Workspace/MiniDesignChallenge/MainModule.vhd".
+WARNING:Xst:647 - Input <DipSW<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <MainModule> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x16-bit ROM                                          : 1
+# Adders/Subtractors                                   : 7
+ 16-bit adder                                          : 3
+ 4-bit adder                                           : 3
+ 4-bit subtractor                                      : 1
+# Registers                                            : 22
+ 1-bit register                                        : 13
+ 10-bit register                                       : 1
+ 16-bit register                                       : 4
+ 4-bit register                                        : 4
+# Comparators                                          : 5
+ 16-bit comparator greatequal                          : 2
+ 16-bit comparator less                                : 1
+ 4-bit comparator equal                                : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <u_RXModule/FSMState/FSM> on signal <FSMState[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <u_TXModule/FSMState/FSM> on signal <FSMState[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+INFO:Xst:2261 - The FF/Latch <UART_AmountDataBit_1> in Unit <u_UART_AmountDataBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_AmountDataBit_2> 
+
+Synthesizing (advanced) Unit <UART_ClkPerBit_Decoder>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_UART_ClkPerBit_mux0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <UART_ClkPerBit_Decoder> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 1
+ 8x16-bit ROM                                          : 1
+# Adders/Subtractors                                   : 7
+ 16-bit adder                                          : 3
+ 4-bit adder                                           : 3
+ 4-bit subtractor                                      : 1
+# Registers                                            : 103
+ Flip-Flops                                            : 103
+# Comparators                                          : 5
+ 16-bit comparator greatequal                          : 2
+ 16-bit comparator less                                : 1
+ 4-bit comparator equal                                : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <UART_AmountDataBit_1> in Unit <UART_AmountDataBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_AmountDataBit_2> 
+WARNING:Xst:1710 - FF/Latch <UART_ClkPerBit_15> (without init value) has a constant value of 0 in block <UART_ClkPerBit_Decoder>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <MainModule> ...
+
+Optimizing unit <UART_ClkPerBit_Decoder> ...
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_5> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_14> 
+INFO:Xst:2261 - The FF/Latch <UART_ClkPerBit_4> in Unit <UART_ClkPerBit_Decoder> is equivalent to the following FF/Latch, which will be removed : <UART_ClkPerBit_13> 
+
+Optimizing unit <UART_TotalBit_Decoder> ...
+
+Optimizing unit <TXModule> ...
+
+Optimizing unit <UART_Buffer> ...
+
+Optimizing unit <RXModule> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MainModule, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 103
+ Flip-Flops                                            : 103
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MainModule.ngr
+Top Level Output File Name         : MainModule
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 383
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 31
+#      LUT2                        : 72
+#      LUT2_D                      : 1
+#      LUT2_L                      : 1
+#      LUT3                        : 23
+#      LUT3_L                      : 3
+#      LUT4                        : 80
+#      LUT4_D                      : 2
+#      LUT4_L                      : 12
+#      MUXCY                       : 93
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 103
+#      FD                          : 15
+#      FDE                         : 33
+#      FDR                         : 32
+#      FDRE                        : 20
+#      FDRS                        : 1
+#      FDS                         : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 10
+#      IBUF                        : 8
+#      IBUFG                       : 1
+#      OBUF                        : 1
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                      123  out of   1920     6%  
+ Number of Slice Flip Flops:            103  out of   3840     2%  
+ Number of 4 input LUTs:                231  out of   3840     6%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  10  out of     97    10%  
+ Number of GCLKs:                         2  out of      8    25%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SysClk                             | u_dcm133/DCM_INST:CLKFX| 103   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 42.645ns (Maximum Frequency: 23.449MHz)
+   Minimum input arrival time before clock: 5.214ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SysClk'
+  Clock period: 42.645ns (frequency: 23.449MHz)
+  Total number of paths / destination ports: 4127 / 124
+-------------------------------------------------------------------------
+Delay:               7.996ns (Levels of Logic = 19)
+  Source:            u_TXModule/ClkCounter_0 (FF)
+  Destination:       u_TXModule/ClkCounter_15 (FF)
+  Source Clock:      SysClk rising 5.3X
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: u_TXModule/ClkCounter_0 to u_TXModule/ClkCounter_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.720   1.246  u_TXModule/ClkCounter_0 (u_TXModule/ClkCounter_0)
+     LUT2:I0->O            1   0.551   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_lut<0> (u_TXModule/Mcompar_FSMState_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<0> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<1> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<2> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<3> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<4> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<5> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<6> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<7> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<8> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<9> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<10> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<11> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<12> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<13> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<14> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<14>)
+     MUXCY:CI->O           7   0.303   1.261  u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<15> (u_TXModule/Mcompar_FSMState_cmp_lt0000_cy<15>)
+     LUT2_D:I1->O         15   0.551   1.214  u_TXModule/posSending_mux0000<1>11 (u_TXModule/N6)
+     LUT4:I3->O            1   0.551   0.000  u_TXModule/ClkCounter_mux0000<8>1 (u_TXModule/ClkCounter_mux0000<8>)
+     FDR:D                     0.203          u_TXModule/ClkCounter_7
+    ----------------------------------------
+    Total                      7.996ns (4.275ns logic, 3.721ns route)
+                                       (53.5% logic, 46.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SysClk'
+  Total number of paths / destination ports: 55 / 32
+-------------------------------------------------------------------------
+Offset:              5.214ns (Levels of Logic = 4)
+  Source:            RX (PAD)
+  Destination:       u_RXModule/DataReceive_4 (FF)
+  Destination Clock: SysClk rising 5.3X
+
+  Data Path: RX to u_RXModule/DataReceive_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.821   1.422  RX_IBUF (RX_IBUF)
+     LUT2:I0->O            5   0.551   0.947  u_RXModule/DataReceive_1_mux000021 (u_RXModule/N9)
+     LUT4_L:I3->LO         1   0.551   0.168  u_RXModule/DataReceive_5_mux000021 (u_RXModule/DataReceive_5_mux000021)
+     LUT3:I2->O            1   0.551   0.000  u_RXModule/DataReceive_5_mux000032 (u_RXModule/DataReceive_5_mux0000)
+     FDRE:D                    0.203          u_RXModule/DataReceive_5
+    ----------------------------------------
+    Total                      5.214ns (2.677ns logic, 2.537ns route)
+                                       (51.3% logic, 48.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SysClk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            u_TXModule/TXBuffer (FF)
+  Destination:       TX (PAD)
+  Source Clock:      SysClk rising 5.3X
+
+  Data Path: u_TXModule/TXBuffer to TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              1   0.720   0.801  u_TXModule/TXBuffer (u_TXModule/TXBuffer)
+     OBUF:I->O                 5.644          TX_OBUF (TX)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 21.50 secs
+ 
+--> 
+
+Total memory usage is 310296 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :   13 (   0 filtered)
+

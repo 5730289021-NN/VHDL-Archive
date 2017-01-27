@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Jan 19 09:16:06 2017
+# Process ID: 8560
+# Log file: C:/Users/noraw/Documents/VHDL/UART_to_Speaker/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/noraw/Documents/VHDL/UART_to_Speaker/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/noraw/Documents/VHDL/UART_to_Speaker/pa.fromNetlist.tcl
+# create_project -name UART_to_Speaker -dir "C:/Users/noraw/Documents/VHDL/UART_to_Speaker/planAhead_run_1" -part xc3s200tq144-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/noraw/Documents/VHDL/UART_to_Speaker} }
+# set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/noraw/Documents/VHDL/UART_to_Speaker/Main.ucf' to fileset 'constrs_1'
+# add_files [list {Main.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s200tq144-4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

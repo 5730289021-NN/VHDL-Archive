@@ -1,0 +1,7 @@
+V3 3
+FL C:/Users/noraw/Documents/VHDL/Melody/buzz.vhd 2016/11/21.19:12:02 P.20131013
+EN work/buzz 1479731162 FL C:/Users/noraw/Documents/VHDL/Melody/buzz.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/buzz/Behavioral 1479731163 \
+      FL C:/Users/noraw/Documents/VHDL/Melody/buzz.vhd EN work/buzz 1479731162

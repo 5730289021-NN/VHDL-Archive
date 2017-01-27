@@ -1,0 +1,30 @@
+Command line:
+   RXModuleTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50578
+
+Sat Jan 14 14:36:55 2017
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 842.67 Meg
+
+ Total Signals          : 33
+ Total Nets             : 108
+ Total Signal Drivers   : 17
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 9
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 610
+Total Line Count : 84
+Total Line Count : 84
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 528.097 Meg
+
+Sat Jan 14 15:03:02 2017
+

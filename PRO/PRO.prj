@@ -1,0 +1,5 @@
+vhdl work "seg.vhd"
+vhdl work "DCD.vhd"
+vhdl work "clk.vhd"
+vhdl work "bin.vhd"
+vhdl work "PRO.vhd"
